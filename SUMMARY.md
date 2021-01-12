@@ -40,18 +40,18 @@
   * [How to automatically restart and unlock Sia](your-sia-wallet/for-advanced-users/how-to-automatically-restart-and-unlock-sia.md)
   * [How to set an environment variable](your-sia-wallet/for-advanced-users/how-to-set-an-environment-variable.md)
 
-## Renting on Sia
+## Renting
 
-* [About renting](renting-on-sia/about-renting.md)
-* [Managing your files](renting-on-sia/managing-your-files.md)
-* [How to rent storage on Sia](renting-on-sia/how-to-rent-storage-on-sia.md)
-* [How to back up and restore your files](renting-on-sia/how-to-back-up-your-files.md)
-* [Renter troubleshooting](renting-on-sia/renter-troubleshooting.md)
-* [Is my data secure?](renting-on-sia/is-my-data-secure.md)
+* [About renting on Sia](renting/about-renting.md)
+* [Managing your files](renting/managing-your-files.md)
+* [How to rent storage on Sia](renting/how-to-rent-storage-on-sia.md)
+* [How to back up and restore your files](renting/how-to-back-up-your-files.md)
+* [Renter troubleshooting](renting/renter-troubleshooting.md)
+* [Is my data secure?](renting/is-my-data-secure.md)
 
 ## Hosting
 
-* [About hosting](hosting/about-hosting.md)
+* [About hosting on Sia](hosting/about-hosting-on-sia.md)
 * [How to host on Sia](hosting/how-to-host-on-sia.md)
 * [Hosting FAQ](hosting/hosting-faq.md)
 

@@ -4,7 +4,7 @@ description: >-
   the Sia network.
 ---
 
-# About hosting
+# About hosting on Sia
 
 **Hosting** means you are contributing your excess storage space to the Sia network. You're helping to keep data where it belongs – safely in the hands of those who uploaded it, the **renters**.
 

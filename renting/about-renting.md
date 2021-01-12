@@ -4,7 +4,7 @@ description: >-
   Later pages walk you through the specific process.
 ---
 
-# About renting
+# About renting on Sia
 
 When you upload files on the Sia Storage Platform, you become a **renter**. You upload files to other users who have made their space available, called **hosts**. We use the term renter because Sia creates contracts with other hosts:
 
