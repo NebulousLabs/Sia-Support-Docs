@@ -24,9 +24,7 @@ Skynet is a completely decentralized file-sharing and content delivery platform 
 
 Any type of data can be uploaded to Skynet. You can upload files through your own Sia node, or a third party Skynet Webportal. Once the file has been uploaded, a 46 byte link called a Skylink is generated. That link can be shared with anyone - Sia users and non-Sia users alike - to fetch the data from Skynet.
 
-The original uploader does not need to stay online in order for the file to remain available. The Sia network handles all of the pinning, guaranteeing both high speeds and excellent uptime.
-
-This is a boon for decentralized applications, which can run confidently knowing that their storage layer is just as decentralized as their app.
+The original uploader does not need to stay online in order for the file to remain available. The Sia network handles all of the pinning, guaranteeing both high speeds and excellent uptime. This is a boon for decentralized applications, which can run confidently knowing that their storage layer is just as decentralized as their app.
 
 And for centralized applications, Skynet provides a low cost, low hassle, high speed mechanism to store and distribute data. Storage costs are as much as 10x lower than traditional infrastructure, bandwidth costs as much as 100x lower, all without sacrificing performance or reliability.
 
