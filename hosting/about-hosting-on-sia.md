@@ -39,7 +39,7 @@ Having collateral incentivizes hosts to be online and to keep their renter data 
 
 ## Host Scoring
 
-One of the most important factors that determines how you'll fair as a host is your host score. This is based on a number of metrics – some that you can directly affect, some that improve or diminish over time based on your performance.
+One of the most important factors that determines how you'll fair as a host is your host score. This is based on a number of metrics – some that you can directly affect, some that improve or diminish over time based on your performance.
 
 Sia is a decentralized network - the code to evaluate these scoring metrics is contained within each renter's Sia instance. For that reason, each Sia renter you encounter builds their own host score for your host, so your host may be scored differently among different renters. Your host does not have one single overall score across the Sia network, but instead many scores with many renters based on the metrics described below. Any website or service showing your Sia host rank is showing that particular source's view of your host, which may be different from what a renter comes up with.
 
@@ -70,9 +70,9 @@ There's more values we could include in this table, but there's not much point. 
 {% endtab %}
 
 {% tab title="Storage Pricing" %}
-The price you set for your storage as a host is one of the biggest ways you can affect your host score. You want to set a price that's competitive, but that will still result in a reasonable amount of income for the space you offer. In general, the higher you price your storage, the lower your host score will be. Your host score will increase by a factor of 16 every time you cut your storage price in half. Decreasing your storage cost by even a small amount will have an impact on your score. 
+The price you set for your storage as a host is one of the biggest ways you can affect your host score. You want to set a price that's competitive, but that will still result in a reasonable amount of income for the space you offer. In general, the higher you price your storage, the lower your host score will be. Your host score will increase by a factor of 16 every time you cut your storage price in half. Decreasing your storage cost by even a small amount will have an impact on your score.
 
-There are a number of other pricing factors you have to take into consideration as a host: 
+There are a number of other pricing factors you have to take into consideration as a host:
 
 * A **Contract Fee** is a one-time fee a renter pays in order to initiate a storage contract with you. It's intended to cover transaction fees on the Sia network related to the creation of the contract and receiving payments as a host. This is normally set for you automatically, but it can be changed via the Terminal/command line. If you change it, you generally don't want to set this more than about 5 SC, as these costs are very low. 
 * **Bandwidth Price** can be set on a basis of SC per Terabyte transferred to/from your host. One price can be set for both upload and download bandwidth via the Sia-UI, or different upload/download prices can be set individually via the Terminal/command line. It's suggested that you price your upload and download bandwidth in relation to your internet connection capabilities. If you have a fast connection such as gigabit fiber, you can price these items very low because a user transferring several Terabytes doesn't impact you very much. If you have a slow connection or data caps, you may want to consider a higher bandwidth price, though this may deter renters. 
@@ -82,14 +82,14 @@ There are a number of other pricing factors you have to take into consideration 
 {% tab title="Collateral" %}
 This is how many Siacoins you're willing to lose if you don't fulfill the rental contract, per TB. It's a guarantee to your renters that you will be online through the storage contract, and that you'll have their data intact at the end of the contract. As a host, this is why you need Siacoins to start hosting. If you go offline for too long or lose renter data, you risk losing your collateral.
 
-You should normally set your collateral to around **2-3x your base storage price** as a starting point in order to maximize your host score in this area. For example, if you've priced your storage at 50 SC/TB, you should set your collateral at 100-150 SC/TB. 
+You should normally set your collateral to around **2-3x your base storage price** as a starting point in order to maximize your host score in this area. For example, if you've priced your storage at 50 SC/TB, you should set your collateral at 100-150 SC/TB.
 
 * If you set your collateral **too low**, your host score will be reduced, because renters will have no reason to trust you as a host if you have little or nothing to lose by going offline. 
 * If you set your collateral **too high**, this can also decrease your host score. Renters pay a fee based on a percentage of your collateral that goes towards [Siafunds](../siafunds/what-are-siafunds.md) - if your collateral is set very high, the fee a renter pays as a result will be very high, which can decrease your host score. 
 
 #### Monitoring Your Collateral
 
-You can get information on your collateral by typing `host -v` into the Terminal. This will show you a few things: 
+You can get information on your collateral by typing `host -v` into the Terminal. This will show you a few things:
 
 * All of your current host settings, as well as details on contracts and expected revenue 
 * **Locked Collateral** - this is the total collateral that's been reserved for contracts that have been created with your host. This amount has been removed from your wallet and is inaccessiable to you. 
@@ -100,7 +100,7 @@ With this information, you can determine how much collateral has been tied up in
 {% endtab %}
 
 {% tab title="Storage Remaining" %}
-The more free space you have, the more attractive you are to people who want to store things. It makes your host less likely to run out of space later. The host scoring system takes this into account. 
+The more free space you have, the more attractive you are to people who want to store things. It makes your host less likely to run out of space later. The host scoring system takes this into account.
 
 Again, each renter determines their score for your host. The more available space you have when a host forms contracts with you, the more reliable you look athe the higher this piece of the scoring will be.
 {% endtab %}
@@ -123,7 +123,7 @@ Once you've been online for about six weeks, about half of the default contract 
 {% endtab %}
 
 {% tab title="Interaction Weight" %}
-Interaction weight is a metric measured between your host and each renter on the Sia network. For example, if a renter tries to contact your host and you're frequently offline or don't have your wallet unlocked \(a pre-requisite to your host being online\), your interaction score will decrease with that renter. Again, this score is unique for each renter you encounter - it will be different for each individual renter on the Sia network. 
+Interaction weight is a metric measured between your host and each renter on the Sia network. For example, if a renter tries to contact your host and you're frequently offline or don't have your wallet unlocked \(a pre-requisite to your host being online\), your interaction score will decrease with that renter. Again, this score is unique for each renter you encounter - it will be different for each individual renter on the Sia network.
 
 Keeping your host online and your wallet unlocked while hosting will keep this score as high as possible.
 {% endtab %}

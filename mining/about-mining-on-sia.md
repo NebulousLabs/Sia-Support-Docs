@@ -14,7 +14,7 @@ When you mine on a cryptocurrency network, you are contributing computing power 
 
 The block reward is the miner's incentive to contribute their computing power and electricity cost to the network. When a block is successfully verified, or solved, an amount of Siacoins is paid out to those who mined the block.
 
-When the Sia network launched, the block reward was 300,000 Siacoins. This decreases by one every block, with a floor at 30,000 – which was reached at block 270,000 \(300,000 - block height\).
+When the Sia network launched, the block reward was 300,000 Siacoins. This decreases by one every block, with a floor at 30,000 – which was reached at block 270,000 \(300,000 - block height\).
 
 ### Infinite Reward
 
@@ -24,7 +24,7 @@ Unlike Bitcoin and some other cryptocurrency blockchains, the Sia block reward n
 
 The Sia blockchain runs on something called Proof of Work. Blockchains are an amazing thing, and they are versatile enough to power different platforms. They might power money, like Bitcoin. They might power utility and smart storage contracts, like Sia. No matter what the blockchain is in charge of, you need to be sure that the money you send or the contracts you enter into never change.
 
-A blockchain needs to be correct. There's no bank to record a transaction, and no third party to verify the validity of a contract. The whole reason anyone trusts a blockchain is because you don't need to trust anyone – you can be sure that the Bitcoin you receive is really yours; that the storage space you've rented on Sia is really there for your data.
+A blockchain needs to be correct. There's no bank to record a transaction, and no third party to verify the validity of a contract. The whole reason anyone trusts a blockchain is because you don't need to trust anyone – you can be sure that the Bitcoin you receive is really yours; that the storage space you've rented on Sia is really there for your data.
 
 A lot of cost and resources go into verifying the transactions of a blockchain. Proof of Work provides a powerful stamp that says ‘this history cannot be changed without doing a lot of work and spending a lot of money’. In practice, that is a powerful deterrant.
 

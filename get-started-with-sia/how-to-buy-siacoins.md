@@ -6,11 +6,11 @@ Siacoins are available on a number of major exchanges like Binance, Bittrex, Kra
 
 Some exchanges support direct fiat \(local currency\) to Siacoin purchases, but others require you to buy Bitcoins, Ethereum, or other crypto to make your purchase. We’ll walk you through the process of buying your first Siacoins.
 
-### What is KYC?
+## What is KYC?
 
 No, this isn't chicken related. KYC stands for Know Your Customer, and is a set of identity verification rules that most exchanges have to follow to abide with local laws. This might include submitting scans of state or federal ID, or sending in your government ID numbers like a Social Security Number if you live in the US. You'll be guided through whatever KYC process your exchange of choice has.
 
-### Buy SC from an exchange
+## Buy SC from an exchange
 
 This option gets you the best prices, but has a fairly intense on-ramp for a new user.
 
@@ -25,9 +25,9 @@ If this is your first time purchasing crypto, start with a small amount until yo
 {% endhint %}
 
 * Now you have the Siacoins in your Bittrex wallet, but exchange wallets aren’t a good place to store crypto, and you can’t use it for its intended purpose - using Sia.
-* Transfer to your Sia wallet by [making a Sia address]() and then sending to it from Bittrex.
+* Transfer to your Sia wallet by [making a Sia address](how-to-buy-siacoins.md) and then sending to it from Bittrex.
 
-### Buy SC using Transak
+## Buy SC using Transak
 
 Transak offers incredibly easy crypto purchasing using just your debit or credit card, but you pay extra fees and there are minimum purchase amounts that might be higher than what you need.
 

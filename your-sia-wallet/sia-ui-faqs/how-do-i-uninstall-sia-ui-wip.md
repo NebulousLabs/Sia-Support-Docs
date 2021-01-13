@@ -12,7 +12,7 @@ Deleting your data folders means Sia is gone - blockchain and everything. You ca
 
 ## Windows
 
-Sia-UI on Windows has a built-in uninstaller that will do it for you. It can be found in the default install location -  `user/AppData/Local/Programs/Sia-UI`
+Sia-UI on Windows has a built-in uninstaller that will do it for you. It can be found in the default install location - `user/AppData/Local/Programs/Sia-UI`
 
 Using this will delete Sia and all the associated data folders.
 
@@ -28,7 +28,7 @@ In Sia-UI version 1.4.0 and later, there's an easy way to find this. Click on th
 
 Then click on **Show Sia Data** or **Open Data Folder** \(version dependent\)**.**
 
-![](../../.gitbook/assets/about.png)
+![](../../.gitbook/assets/about%20%281%29.png)
 
 You'll be taken to your computer's `/sia` folder. Delete the parent folder to this, `/Sia-UI`.
 

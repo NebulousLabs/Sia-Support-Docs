@@ -6,9 +6,9 @@ To set an environment variable on Linux, enter the following command at a shell 
 
 csh/tcsh: _variablevalue_ bash/ksh: _variable_=_value_
 
-where variable is the name of the environment variable \(such as \) and value is the value you want to assign to the variable, \(such as \). To find out what environment variables are set, use the  command. To remove a variable from the environment, use the following commands:
+where variable is the name of the environment variable \(such as \) and value is the value you want to assign to the variable, \(such as \). To find out what environment variables are set, use the command. To remove a variable from the environment, use the following commands:
 
-csh/tcsh: _variable_bash/ksh: _variable_
+csh/tcsh: _variable\_bash/ksh: \_variable_
 
 ## Windows
 

@@ -152,7 +152,7 @@ cat siad/renter/siafiles/.siadir | python -m json.tool
 
 Here is the aggregate metadata of your filesystem that the repair loop is going to use. If `aggregatehealth` is &lt;= 0.25 then your system is healthy, if it is &gt; 0.25 then it should be repairing.
 
-If there is a large number of `aggregatenumstuckchunks` then slow uploads could be because all the work is relying on the stuck loop. In this case you can try `siac renter unstuckall` to try and unmark those stuck chunks and allow for the repair loop to pick them up again. 
+If there is a large number of `aggregatenumstuckchunks` then slow uploads could be because all the work is relying on the stuck loop. In this case you can try `siac renter unstuckall` to try and unmark those stuck chunks and allow for the repair loop to pick them up again.
 
 Big things that you want to check for:
 

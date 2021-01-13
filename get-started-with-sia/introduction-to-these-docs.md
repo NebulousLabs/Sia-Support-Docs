@@ -22,13 +22,13 @@ You can edit these docs by submitting a Pull Request in the [Github repo](https:
 
 The info in these docs has been taken from a number of sources, primarily the previous Sia Support Center and community-driven sites like the Sia Wiki, SiaStats, and SiaSetup. Thanks to these sites and the many others that have contributed to the Sia ecosystem over the years.
 
-This site is being developed simultaneously as another brand-new Sia/Skynet resource takes shape - the Skynet Wiki. While this site can be updated by our users, a community never suffers from having too many resources. Where this site takes a targeted approach to on-boarding new users and getting them up and running, another site might take a more philosophical approach. Yet another might focus on metrics. There's nothing wrong with redundancy – the entire Sia network is based on it.
+This site is being developed simultaneously as another brand-new Sia/Skynet resource takes shape - the Skynet Wiki. While this site can be updated by our users, a community never suffers from having too many resources. Where this site takes a targeted approach to on-boarding new users and getting them up and running, another site might take a more philosophical approach. Yet another might focus on metrics. There's nothing wrong with redundancy – the entire Sia network is based on it.
 
 ## What to do if you need more help.
 
-Couldn’t find your answer here? Don’t worry, we have more support options for you. 
+Couldn’t find your answer here? Don’t worry, we have more support options for you.
 
-Join the \#help channel in [the Sia Discord server.](https://discord.gg/sia) We have a huge community that loves helping users with their issues. 
+Join the \#help channel in [the Sia Discord server.](https://discord.gg/sia) We have a huge community that loves helping users with their issues.
 
 You can also [send us an email.](mailto:hello@sia.tech) We’ll respond as soon as we can.
 

@@ -4,7 +4,7 @@ Your data is incomparably safe when you use Sia. Sia is a fully decentralized cl
 
 The data normally on Sia gets split up, encrypted, and the pieces are then distributed all around the world to different hosts.
 
-### It's just the way it's built
+## It's just the way it's built
 
 Sia is decentralized, which has a lot of inherent benefits. While we develop the software, we're not in charge of the network. No one is - it's all handled by smart contracts and a blockchain, and [**Sia is completely open source**](https://gitlab.com/NebulousLabs/Sia) so you can make sure we're staying honest.
 
@@ -14,9 +14,9 @@ File segments are created using [**Reed-Solomon erasure coding**](https://en.wik
 
 **Each file segment is encrypted before being sent out.**
 
-### Security
+## Security
 
-#### **The technical side**
+### **The technical side**
 
 Like we mentioned earlier, Sia divides each files into 30 segments before uploading, and puts those pieces all over the world on the Sia network. This distribution assures that no one host represents a single point of failure and reinforces overall network uptime and redundancy.
 
@@ -26,7 +26,7 @@ This means that if 20 out of 30 hosts go offline, a user is still able to downlo
 
 And because Sia is decentralized, no one person, company, or government can deny you access. It's global and governed by no one.
 
-#### The economic side
+### The economic side
 
 Just as important as how it keeps your data secure, is why. The Sia network keeps your data safe because data hosts are financially incentivized to provide enterprise level service. They earn money by hosting data, so naturally they want to be good hosts.
 

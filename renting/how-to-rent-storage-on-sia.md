@@ -4,13 +4,13 @@ When you upload files on the Sia network, you become a **renter**. You upload fi
 
 But the only thing that you need to set when you start uploading is your **Allowance**, or how much money you're willing to spend on storage. Having an allowance makes sure that your storage costs are predictable, and won't exceed an amount you're comfortable with.
 
-### Things you'll need
+## Things you'll need
 
 * Sia installed on your computer
 * A Sia wallet set up
 * Siacoins, the cryptocurrency used to buy and sell storage
 
-### The process
+## The process
 
 {% hint style="info" %}
 These instructions walk you through how to upload files in Sia-UI.

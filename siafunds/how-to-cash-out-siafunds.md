@@ -8,7 +8,7 @@ If you're a Siafund owner, you have the option of cashing out these accrued Siac
 You **do not** lose the Siafunds in this process. You'll always retain control over them unless you send them to someone else, or a bad address.
 {% endhint %}
 
-### How many Siacoins has my Siafund earned?
+## How many Siacoins has my Siafund earned?
 
 Sia automatically keeps track of how many Siacoins your Siafunds have accrued, and we have an easy way to check that balance.
 
@@ -22,7 +22,7 @@ Type a single word command into the interface that pops up: `wallet`
 
 You'll be presented with a recap of your wallet: how many Siacoins you have, how many Siafunds you have, and how many Siacoins your Siafunds have earned, listed as `Siafund Claims`.
 
-### Generate a Sia address
+## Generate a Sia address
 
 Go to the Wallet tab of Sia, and click **Receive.**
 
@@ -32,7 +32,7 @@ Click **Generate New Address** to create a new Sia address.
 
 Copy and paste this manually, or use the `Copy` button to the right to make sure you get the full address without any extra spaces.
 
-### Send your Siafunds to this address
+## Send your Siafunds to this address
 
 Now switch over to the Send section of your wallet.
 
@@ -46,7 +46,7 @@ Siafunds sent to mistyped addresses cannot be retrieved.
 
 Click **Generate Transaction.**
 
-### Verify your info
+## Verify your info
 
 Next, you need to verify everything. You'll have a chance to double-check the currency, amount, and recipient address. Sia-UI will also show you estimated network fees.
 
@@ -54,7 +54,7 @@ Click **Back** to change something. If it's all good, click **Broadcast.**
 
 ![](../.gitbook/assets/siafunds-cashout-5.png)
 
-### Check the status
+## Check the status
 
 You'll immediately get a confirmation.
 
@@ -62,7 +62,7 @@ You'll immediately get a confirmation.
 
 And you'll see a small tag appear under your balance to let you know the transaction is on its way, but hasn't yet appeared in a block.
 
-### For advanced users
+## For advanced users
 
 If you're using siac, the process is the same. Just initiate a transaction and send your Siafunds to a wallet address you control. You can use this command:
 

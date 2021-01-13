@@ -30,7 +30,7 @@ _Let's make sure your hardware wallet ready to use._
 
 At this point, you're ready to install apps on your Ledger Nano S. Remember to store your 24-word recovery phrase in a safe place, because you'll need it to recover your funds if your device is lost or damaged.
 
-#### Install the Sia Ledger Nano S app <a id="install_the_sia_ledger_nano_s_app"></a>
+### Install the Sia Ledger Nano S app <a id="install_the_sia_ledger_nano_s_app"></a>
 
 _Now we'll install the Sia app onto your Ledger hardware wallet._
 
@@ -221,7 +221,7 @@ Note: the following are example values and may not match the values seen in earl
 
 The transaction is now valid. To broadcast it to the Sia network, simply move txn.json to the folder you run Sia commands from, and run:
 
-`siac wallet broadcast txn.json` 
+`siac wallet broadcast txn.json`
 
 ## Get help
 

@@ -1,6 +1,6 @@
 # Navigating the 2021 Sia hardfork
 
-The Sia network is hardforking to implement the Sia Foundation: a new non-profit entity that builds and supports distributed cloud storage infrastructure, with a specific focus on the Sia storage platform. 
+The Sia network is hardforking to implement the Sia Foundation: a new non-profit entity that builds and supports distributed cloud storage infrastructure, with a specific focus on the Sia storage platform.
 
 {% hint style="info" %}
 The hardfork requires v1.5.4 of Sia.

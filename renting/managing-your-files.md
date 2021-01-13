@@ -10,7 +10,7 @@ description: >-
 As with any file storage or backup solution, Sia should not be your sole location for critical files.
 {% endhint %}
 
-### Uploading
+## Uploading
 
 Uploading happens in Sia-UI or your preferred command-line interface. Sia-UI has your standard file browser or drag and drop options, just like any other file storage application. There are special commands that you'll want to become familiar with when using the CLI version of Sia, which is called `siac`.
 
@@ -26,7 +26,7 @@ Visualized differently:
 
 You don't have to do anything, or even see that this process happens.
 
-### Limits on uploading\*
+## Limits on uploading\*
 
 \*These numbers will change over time.
 
@@ -36,17 +36,17 @@ You don't have to do anything, or even see that this process happens.
 
 This means that, if you're uploading many small files, you'll save a lot of money by zipping them up together before uploading. This minimum file size will be _significantly_ reduced in a future update.
 
-### Health and Redundancy 
+## Health and Redundancy
 
-In Sia, you'll see the health of your files represented as a percentage. This refers to how many pieces of this file are available. You always want this to be 100%, which means that all 30 pieces of your file are stored on hosts. Sia is smart though – if a host goes offline, it will re-duplicate that piece on a new host the next time it checks.
+In Sia, you'll see the health of your files represented as a percentage. This refers to how many pieces of this file are available. You always want this to be 100%, which means that all 30 pieces of your file are stored on hosts. Sia is smart though – if a host goes offline, it will re-duplicate that piece on a new host the next time it checks.
 
 Sia can only check when it's active though, so be sure to open Sia periodically to refresh the health of your files.
 
-### Downloading
+## Downloading
 
 Downloading files happens right thorugh the app as well. There's a small download icon next to each file in your list. Downloading requires Siacoins, since you pay for the bandwidth you use.
 
-#### Maintaining Data ****
+### Maintaining Data _\*\*_
 
 In order to make sure that your data is always available, there's a couple of important tasks you should periodically perform.
 

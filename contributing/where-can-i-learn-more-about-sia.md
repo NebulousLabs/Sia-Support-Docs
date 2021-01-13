@@ -12,7 +12,7 @@ Sia has great resources and a thriving community that loves to help others.
 
 [SiaStats](http://siastats.info/)
 
-### Community and Social
+## Community and Social
 
 [Sia Blog](https://blog.sia.tech/)
 
@@ -25,6 +25,4 @@ Sia has great resources and a thriving community that loves to help others.
 [Reddit](https://reddit.com/r/siacoin)
 
 [GitLab](https://gitlab.com/nebulouslabs)
-
-
 

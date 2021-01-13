@@ -7,7 +7,7 @@ Learn how to install Sia-UI on Windows, Linux, or MacOS.
 * A desktop or notebook computer with a decent amount of available storage space. As of January 2021, you need about 24 GB for the Sia blockchain to download. This file will only get larger, so allocate some space to be able to grow with Sia.
 * A basic knowledge of your computer's file structure.
 
-#### Find the right download for you <a id="find_the_right_download_for_you"></a>
+### Find the right download for you <a id="find_the_right_download_for_you"></a>
 
 Go to [our downloads page](http://sia.tech/get-started). You'll see two options, Sia-UI and Sia Daemon. Sia-UI is our user-friendly app, while Sia Daemon is for users comfortable with command-line interfaces. Download Sia-UI for your operating system by clicking the correct OS name.
 
