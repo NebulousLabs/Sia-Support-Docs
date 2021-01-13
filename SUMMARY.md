@@ -58,6 +58,7 @@
 ## Mining
 
 * [About mining on Sia](mining/about-mining-on-sia.md)
+* [Sia mining pools](mining/sia-mining-pools.md)
 
 ## Contributing
 
