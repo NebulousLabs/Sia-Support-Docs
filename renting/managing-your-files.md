@@ -14,36 +14,18 @@ As with any file storage or backup solution, Sia should not be your sole locatio
 
 Uploading happens in Sia-UI or your preferred command-line interface. Sia-UI has your standard file browser or drag-and-drop options, just like any other file storage application. There are special commands that you'll want to become familiar with when using the CLI version of Sia, which is called `siac`.
 
-#### Daniel's attempt:
-
-When you upload a file to Sia, it first gets processed on your machine to allow for maximum redundancy and security on the network. It is first split into manageable chunks. Each chunk is then run through a process that creates 30 pieces, each of which gets encrypted before being sent to a different host. Only 10 of the 30 pieces are needed to reconstruct a chunk, but no host ever sees more than one. This means, for each part of your original file, 20 hosts could drop from the network and your storage will still be safe and secure.
+When you begin to upload a file to Sia, it has to get processed on your machine to allow for maximum redundancy and security on the network. It is first split into manageable chunks. Each chunk is then run through a process that creates 30 pieces, each of which gets encrypted before being sent to a different host. Only 10 of the 30 pieces are needed to reconstruct a chunk, but no host ever sees more than one. This means, for each part of your original file, 20 hosts could drop from the network and your data will still be safe and secure.
 
 {% hint style="info" %}
 For the more technical readers, here is what happens behind the scenes:
 
 * Files are chunked into 40MB chunks \(if a file is smaller, it is padded to 40MB so that data looks identical as it moves across networks\)
-* Each chunk is then erasure-coded using Reed-Solomon encoding. After processing, each chunk has 30 unique 4MB pieces associated with it.
-* Each piece is then encrypted using \_\_\_\_ and uploaded to a distinct host.
+* Each chunk is then erasure-coded using [Reed-Solomon](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) encoding. After processing, each chunk has 30 unique 4MB pieces associated with it.
+* Each piece is then encrypted using [Threefish](https://en.wikipedia.org/wiki/Threefish) and uploaded to a distinct host.
 * Because Reed-Solomon encoding is done with 10 data shards and 20 parity shards, any 10 pieces are sufficient for rebuilding the file.
 {% endhint %}
 
-#### Original:
-
-When you upload a file, it gets split into 10 pieces. Each of those 10 pieces is then duplicated three times. Each piece is then encrypted and sent to 30 different hosts. Because a host only has a single encrypted piece of your file, they can never see what you upload.
-
-Visualized differently:
-
-* 1 file gets
-* split into 10 pieces
-* which are each duplicated three times.
-* Those 30 pieces are then encrypted
-* and sent to 30 different hosts.
-
-#### Matt's:
-
-> When you upload a file, it gets split into 40MiB chunks, if a file is smaller than 40MiB it will be padded to 40MiB. Each chunk is then run through a special process called erasure coding which is what provides the redundancy of the file on the Sia network.  The default erasure coding that is used is 10-of-30 which splits the chunk into 30 pieces, however only 10 of these pieces are needed to reconstruct the file. Each piece is then encrypted and uploaded to a different host. Since a host only has a single encrypted piece of a chunk of your file, they can never see what you upload.
-
-You don't have to do anything, or even see that this process happens.
+That's a lot of details but just know: you don't have to do anything, or even see that this process happens.
 
 ## Limits on uploading\*
 
