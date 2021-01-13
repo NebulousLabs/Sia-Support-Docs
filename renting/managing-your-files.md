@@ -24,6 +24,8 @@ Visualized differently:
 * Those 30 pieces are then encrypted
 * and sent to 30 different hosts.
 
+> When you upload a file, it gets split into 40MiB chunks, if a file is smaller than 40MiB it will be padded to 40MiB. Each chunk is then run through a special process called erasure coding which is what provides the redundancy of the file on the Sia network.  The default erasure coding that is used is 10-of-30 which splits the chunk into 30 pieces, however only 10 of these pieces are needed to reconstruct the file. Each piece is then encrypted and uploaded to a different host. Since a host only has a single encrypted piece of a chunk of your file, they can never see what you upload.
+
 You don't have to do anything, or even see that this process happens.
 
 ## Limits on uploading\*
