@@ -62,7 +62,9 @@ Transactions created before the fork block but not confirmed yet will not be val
 
 [Download siac from our site \(for advanced users\)](http://sia.tech/get-started)
 
+{% hint style="warning" %}
 1.5.4 is necessary to spend coins, receive coins, rent, or host after the fork. If you don't upgrade in time, you will brick your consensus.db file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
+{% endhint %}
 
 ### For users that store Siacoins on an exchange
 

@@ -55,6 +55,10 @@
 * [How to host on Sia](hosting/how-to-host-on-sia.md)
 * [Hosting FAQ](hosting/hosting-faq.md)
 
+## Mining
+
+* [About mining on Sia](mining/about-mining-on-sia.md)
+
 ## Contributing
 
 * [How can I contribute to Sia?](contributing/how-can-i-contribute-to-sia.md)
