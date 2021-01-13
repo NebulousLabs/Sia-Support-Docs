@@ -28,7 +28,7 @@ In Sia-UI version 1.4.0 and later, there's an easy way to find this. Click on th
 
 Then click on **Show Sia Data** or **Open Data Folder** \(version dependent\)**.**
 
-![](../../.gitbook/assets/about%20%281%29.png)
+![](../../.gitbook/assets/fork-2%20%281%29%20%282%29.png)
 
 You'll be taken to your computer's `/sia` folder. Delete the parent folder to this, `/Sia-UI`.
 

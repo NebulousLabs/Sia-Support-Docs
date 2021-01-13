@@ -48,7 +48,7 @@ While your transaction is confirming, you'll see 0/6, then 1/6, and so on. Once 
 
 Near the upper right corner, you'll see a button that says `More`. Click on this to get some additional wallet options.
 
-![](../.gitbook/assets/wallet-2.png)
+![](../.gitbook/assets/wallet-2%20%282%29%20%281%29.png)
 
 **View Seed** shows you your seed in case you need to see it again.
 

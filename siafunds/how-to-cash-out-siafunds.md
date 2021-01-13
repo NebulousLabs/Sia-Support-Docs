@@ -28,7 +28,7 @@ Go to the Wallet tab of Sia, and click **Receive.**
 
 Click **Generate New Address** to create a new Sia address.
 
-![](../.gitbook/assets/siafunds-cashout-3.png)
+![](../.gitbook/assets/address-2%20%281%29.png)
 
 Copy and paste this manually, or use the `Copy` button to the right to make sure you get the full address without any extra spaces.
 
