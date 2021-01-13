@@ -7,7 +7,7 @@ When your files are on Sia, they're on the most private, secure network in the w
 File backups are meant to be used to restore files in a brand new instance of Sia, but can also be accessed in your current Sia node.
 
 {% hint style="info" %}
-Your contracts need to be active, which means Sia isn't totally fire and forget just yet. You still need to boot Sia up every few weeks to renew your allowance and contracts.
+Your contracts need to be active, which means Sia isn't totally fire-and-forget just yet. You still need to boot Sia up every few weeks to renew your allowance and contracts.
 {% endhint %}
 
 ## Back up your files in Sia-UI

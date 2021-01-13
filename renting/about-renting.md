@@ -19,13 +19,13 @@ You store data on the network by:
 
 ## The marketplace
 
-The Sia storage network uses a marketplace to find storage for your data. The cost of this storage, often referred to as **pricing**, is the market rate determined competitively by hosts and renters. If hosts find they can lower prices and win more data to store as a result, they'll do it. If renters are willing to pay more to store on high quality hosts, those hosts might raise their prices.
+The Sia storage network uses a marketplace to find storage for your data. The cost of this storage, often referred to as **pricing**, is the market rate determined competitively by hosts and renters. If hosts find they can lower prices and win more data to store as a result, they'll do it. If renters are willing to pay more to store on high-quality hosts, those hosts might raise their prices.
 
 The price of storage is listed in Siacoins, the cryptocurrency used to buy and sell storage on the network. You'll need to \[get Siacoins\] in order to upload files. The price of a Siacoin can vary just like the price of any cryptocurrency. This is usually stable for periods of time, ut can sometimes have more significant shifts depending on the crypto trading markets.
 
 Fortunately, the price of Siacoin doesn't really affect the price of Sia storage. Hosts set their own prices, which creates a marketplace where the best and most reliable hosts are competing for the storage contracts of those who want to upload data. Pricing on the network usually works out to around **$2 per TB per month.** Using Sia becomes more cost-efficient as you upload more data and store it for longer periods of time.
 
-Siacoins are utility token, and their sole purpose is to fulfill contracts on the Sia network.
+Siacoins are utility tokens and their sole purpose is to fulfill contracts on the Sia network.
 
 ## **About contracts**
 
@@ -33,13 +33,13 @@ Storage contracts are one of the most important features of the Sia network. The
 
 A host's job is to store the data, and they only get paid when they have proved they have done so. A renter's job is to pay the host, and they only pay for the data storage they use.
 
-Storage contracts last for three months by default, and are automatically formed when you start uploading your files. Sia like to have
+Storage contracts last for three months by default and are automatically formed when you start uploading your files.
 
 ## **Fees**
 
 As a renter, you pay for the cost of renting storage space. There are also some other fees that you're responsible for.
 
-* **Contract Formation Fees** – Creating storage contracts on the blockchain requires a transaction, and there are very small fees associated with this. Contract formation fees are one-time per contract, and usually cost only a handful of Siacoins, or a few cents.
+* **Contract Formation Fees** – Creating storage contracts on the blockchain requires a transaction, and there are very small fees associated with this. Contract formation fees are one-time per contract, and usually cost only a handful of Siacoins \(a few cents\).
 * **Bandwidth Fees** – You pay for the bandwidth you use when you upload or download files. This can also include wear and tear fees set by the host to help pay for their physical storage devices.
 
 Because contract formation fees only happen once, and your initial upload will consume a lot of bandwidth, using Sia for longer periods of time results in lower average costs.

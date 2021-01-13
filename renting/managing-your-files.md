@@ -12,9 +12,9 @@ As with any file storage or backup solution, Sia should not be your sole locatio
 
 ## Uploading
 
-Uploading happens in Sia-UI or your preferred command-line interface. Sia-UI has your standard file browser or drag and drop options, just like any other file storage application. There are special commands that you'll want to become familiar with when using the CLI version of Sia, which is called `siac`.
+Uploading happens in Sia-UI or your preferred command-line interface. Sia-UI has your standard file browser or drag-and-drop options, just like any other file storage application. There are special commands that you'll want to become familiar with when using the CLI version of Sia, which is called `siac`.
 
-When you upload a file, it gets split into 10 pieces. Each of those 10 pieces are then duplicated three times. Each piece is then encrypted and sent to 30 different hosts. Because a host only has a single encrypted piece of your file, they can never see what you upload.
+When you upload a file, it gets split into 10 pieces. Each of those 10 pieces is then duplicated three times. Each piece is then encrypted and sent to 30 different hosts. Because a host only has a single encrypted piece of your file, they can never see what you upload.
 
 Visualized differently:
 
@@ -44,15 +44,15 @@ Sia can only check when it's active though, so be sure to open Sia periodically 
 
 ## Downloading
 
-Downloading files happens right thorugh the app as well. There's a small download icon next to each file in your list. Downloading requires Siacoins, since you pay for the bandwidth you use.
+Downloading files happens right through the app as well. There's a small download icon next to each file in your list. Downloading requires Siacoins since you pay for the bandwidth you use.
 
 ### Maintaining Data _\*\*_
 
 In order to make sure that your data is always available, there's a couple of important tasks you should periodically perform.
 
 * **Refreshing your allowance** - About six weeks after your contracts are created, your allowance attempts to refill itself. Sia will never spend more than your allowance, so it needs to be refilled to facilitate contract renewals and downloads through the rest of the contract period. _**!** The allowance will refill automatically when you open Sia._
-* **Renewing your contracts** - Your storage contracts will renew automatically at the end of the contract period. By default, Sia will attempt to renew your contract within about 1 month of the contract expiration date. If you started renting at the beginning of January, your 3 month contracts would expire around the end of March. Sia would attempt to renew them around the beginning of March. _**!** Your contracts renew automatically when you open Sia._
-* **Boosting file health** - File health and redundancy is also boosted if needed, as described above. 
+* **Renewing your contracts** - Your storage contracts will renew automatically at the end of the contract period. By default, Sia will attempt to renew your contract within about 1 month of the contract expiration date. If you started renting at the beginning of January, your 3-month contracts would expire around the end of March. Sia would attempt to renew them around the beginning of March. _**!** Your contracts renew automatically when you open Sia._
+* **Boosting file health** - File health and redundancy are also boosted if needed, as described above. 
 
 **Sia needs to be running with your wallet unlocked for these things to occur**, so as a renter, it's a good idea to open Sia **at least once a month** and let it run overnight to take care of miscellaneous housekeeping tasks such as these. If you simply upload files and then never open Sia again, your allowance and your contracts will eventually expire and your files will be immediately deleted once your contracts are no longer valid.
 

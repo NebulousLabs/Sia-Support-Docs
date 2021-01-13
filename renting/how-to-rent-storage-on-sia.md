@@ -44,7 +44,7 @@ In this example, we use the file upload option to start moving a .zip to Sia.
 
 ![](../.gitbook/assets/renter-uploading.png)
 
-Over time, you'll see Contracts Active increase to about 50, and Health increase to 100%. Upload speed will vary based on your internet connection, your hosts' internet connection, and advancements to the Sia protocol as new versions are released. Keep in mind that uploading several TB of data can take several days or weeks.
+Over time, you'll see Contracts Active increase to about 50, and Health increase to 100%. Upload speed will vary based on your internet connection, your hosts' internet connections, and advancements to the Sia protocol as new versions are released. Keep in mind that uploading several TB of data can take several days or weeks.
 
 That's it! Your files are on Sia - the most secure, affordable decentralized cloud network in the world.
 

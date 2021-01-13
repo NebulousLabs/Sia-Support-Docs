@@ -34,7 +34,9 @@ If you don’t have enough contracts, Sia won’t be able to maintain your data 
 
 Use the command `siac renter`. This will print some info that you saw earlier, but also important allowance info.
 
-Quick tip: Your allowance is the maximum amount of Siacions you’re willing to spend on storage. By setting this number, you’re making sure that you don’t end up spending way more over your contract period that you intended. If your allowance runs out, you can’t make new contracts and your data will eventually be removed from Sia.
+{% hint style="info" %}
+**Quick Tip:** Your allowance is the maximum amount of Siacions you’re willing to spend on storage. By setting this number, you’re making sure that you don’t end up spending way more over your contract period than you intended. If your allowance runs out, you can’t make new contracts and your data will eventually be removed from Sia.
+{% endhint %}
 
 ```go
 Allowance:       12 KS
@@ -78,7 +80,7 @@ Spending:
     Release Block:    0
 ```
 
-You can use this to see if your allowance is large enough to accommodate the amount of storage you’re trying to rent. This might clue you in that you need to raise your allowance, or add more Siacoins to your wallet if you don’t have enough to set a proper allowance.
+You can use this to see if your allowance is large enough to accommodate the amount of storage you’re trying to rent. This might clue you in that you need to raise your allowance or add more Siacoins to your wallet if you don’t have enough to set a proper allowance.
 
 Specifically, look at your Unspent Unallocated amount. If this is reporting very low amounts of Siacoins then the allowance needs to be increased because all the other funds have been locked up.
 
@@ -86,7 +88,7 @@ Use the command `siac renter contracts`. This will print a long list of your con
 
 ### The log files
 
-There’s also another important file - the renter.log. This can be found in the /sia/renter/ folder in your Sia data folder. You can use this to search for errors classified as `worker` or `uploadheap`.
+There’s also another important file - the renter.log. This can be found in the `/sia/renter/` folder in your Sia data folder. You can use this to search for errors classified as `worker` or `uploadheap`.
 
 Worker logs to search for:
 
@@ -102,7 +104,7 @@ Uploadheap logs to search for:
 2019/07/29 18:16:12.598899 uploadheap.go:1122: [DEBUG] Executing an upload and repair cycle, uploadHeap has 250 chunks in it
 ```
 
-Search for `Executing`. Check to see if this line appears and if so, how often. This will tell you how fast your renter is working through the uploadHeap for repairs. Also it should always have 250 chunks in it so if that number is not 250 then let the core team know so they can investigate. One edge case is if you are on the last cycle and have less than 250 chunks remaining, or there are just less than 250 chunks that need repair in general.
+Search for `Executing`. Check to see if this line appears and if so, how often. This will tell you how fast your renter is working through the uploadHeap for repairs. Also, it should always have 250 chunks in it so if that number is not 250 then let the core team know so they can investigate. One edge case is if you are on the last cycle and have less than 250 chunks remaining, or there are just less than 250 chunks that need repair in general.
 
 ```go
 2019/07/29 18:16:12.598899 uploadheap.go:348: WARN: no chunk indicies gathered, can’t add chunks to heap
@@ -152,7 +154,7 @@ cat siad/renter/siafiles/.siadir | python -m json.tool
 
 Here is the aggregate metadata of your filesystem that the repair loop is going to use. If `aggregatehealth` is &lt;= 0.25 then your system is healthy, if it is &gt; 0.25 then it should be repairing.
 
-If there is a large number of `aggregatenumstuckchunks` then slow uploads could be because all the work is relying on the stuck loop. In this case you can try `siac renter unstuckall` to try and unmark those stuck chunks and allow for the repair loop to pick them up again.
+If there is a large number of `aggregatenumstuckchunks` then slow uploads could be because all the work is relying on the stuck loop. In this case, you can try `siac renter unstuckall` to try and unmark those stuck chunks and allow for the repair loop to pick them up again.
 
 Big things that you want to check for:
 
