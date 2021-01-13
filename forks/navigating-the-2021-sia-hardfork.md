@@ -7,10 +7,10 @@ The hardfork requires v1.5.4 of Sia.
 {% endhint %}
 
 {% hint style="warning" %}
-1.5.4 is necessary to spend coins, receive coins, rent, or host after the fork. If you don't upgrade in time, you will brick your consensus.db file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
+1.5.4 is necessary to spend coins, receive coins, rent, or host after the fork. If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
 {% endhint %}
 
-This guide is strictly practical. If you'd like to learn more about the Foundation's proposal and discussion that led to its acceptance, check these links.
+This guide is strictly practical. If you'd like to learn more about the Foundation's proposal and the discussion that led to its acceptance, check these links.
 
 [The Sia Foundation proposal](https://www.reddit.com/r/siacoin/comments/iox6ly/proposal_the_sia_foundation/)
 
@@ -63,12 +63,12 @@ Transactions created before the fork block but not confirmed yet will not be val
 [Download siac from our site \(for advanced users\)](http://sia.tech/get-started)
 
 {% hint style="warning" %}
-1.5.4 is necessary to spend coins, receive coins, rent, or host after the fork. If you don't upgrade in time, you will brick your consensus.db file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
+1.5.4 is necessary to spend coins, receive coins, rent, or host after the fork. If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
 {% endhint %}
 
 ### For users that store Siacoins on an exchange
 
-When an exchange updates their wallet, you'll now have the same amount of coins on the new Sia chain. These coins are usable to trade with exchanges once they upgrade, and to buy storage from hosts who also use the new chain.
+When an exchange updates their wallet, you'll now have the same amount of coins on the new Sia chain. These coins are usable to trade with exchanges once they have upgraded and to buy storage from hosts who also use the new chain.
 
 ## Exchange Support
 
