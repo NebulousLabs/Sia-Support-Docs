@@ -39,7 +39,7 @@ Having collateral incentivizes hosts to be online and to keep their renter data 
 
 ## Host Scoring
 
-One of the most important factors that determines how you'll fair as a host is your host score. This is based on a number of metrics – some that you can directly affect, some that improve or diminish over time based on your performance.
+One of the most important factors that determine how you'll fair as a host is your host score. This is based on a number of metrics – some that you can directly affect, some that improve or diminish over time based on your performance.
 
 Sia is a decentralized network - the code to evaluate these scoring metrics is contained within each renter's Sia instance. For that reason, each Sia renter you encounter builds their own host score for your host, so your host may be scored differently among different renters. Your host does not have one single overall score across the Sia network, but instead many scores with many renters based on the metrics described below. Any website or service showing your Sia host rank is showing that particular source's view of your host, which may be different from what a renter comes up with.
 
@@ -47,9 +47,9 @@ Sia is a decentralized network - the code to evaluate these scoring metrics is c
 
 {% tabs %}
 {% tab title="Host Uptime" %}
-Host uptime is an incredibly important metric. You need to be online when people trry to get their data, and since that might be anytime, you should be online all the time. You're allowed a small amount of downtime in order to address minor maintenance issues like restarting for updates, which amounts to approximate 14 hours per month.
+Host uptime is an incredibly important metric. You need to be online when people try to get their data, and since that might be anytime, you should be online all the time. You're allowed a small amount of downtime in order to address minor maintenance issues like restarting for updates, which amounts to approximately 14 hours per month.
 
-In general you should plan for your hosting computer to be turned on and online 24/7. If you can't commit to this, you shouldn't try to host on the Sia network.
+In general, you should plan for your hosting computer to be turned on and online 24/7. If you can't commit to this, you shouldn't try to host on the Sia network.
 
 {% hint style="danger" %}
 Warning: If you go offline for too long \(less than 95% uptime\) or lose renter data \(by deleting it or experiencing a hardware failure\), you can lose money by losing your collateral for active contracts. You can also become responsible for SiaFund fees for each contract.
@@ -66,7 +66,7 @@ Below are the exact amounts that your score will change based on your uptime per
 | 85% | .16 | -85% |
 | 80% | .03 | -97% |
 
-There's more values we could include in this table, but there's not much point. If you can't maintain a minimum of 95% uptime, don't host.
+There are more values we could include in this table, but there's not much point. If you can't maintain a minimum of 95% uptime, don't host.
 {% endtab %}
 
 {% tab title="Storage Pricing" %}
@@ -92,7 +92,7 @@ You should normally set your collateral to around **2-3x your base storage price
 You can get information on your collateral by typing `host -v` into the Terminal. This will show you a few things:
 
 * All of your current host settings, as well as details on contracts and expected revenue 
-* **Locked Collateral** - this is the total collateral that's been reserved for contracts that have been created with your host. This amount has been removed from your wallet and is inaccessiable to you. 
+* **Locked Collateral** - this is the total collateral that's been reserved for contracts that have been created with your host. This amount has been removed from your wallet and is inaccessible to you. 
 * **Risked Collateral** - this is collateral for data that has actually been uploaded to your host, so you stand to lose it if your host goes offline or loses the data. This amount is a subset of Locked Collateral. 
 * **Lost Collateral** - this is collateral you've lost because you weren't online when a storage proof was due to be submitted, or because you lost a renter's data. 
 
@@ -102,7 +102,7 @@ With this information, you can determine how much collateral has been tied up in
 {% tab title="Storage Remaining" %}
 The more free space you have, the more attractive you are to people who want to store things. It makes your host less likely to run out of space later. The host scoring system takes this into account.
 
-Again, each renter determines their score for your host. The more available space you have when a host forms contracts with you, the more reliable you look athe the higher this piece of the scoring will be.
+Again, each renter determines their score for your host. The more available space you have when a host forms contracts with you, the more reliable you look, and the higher this piece of the scoring will be.
 {% endtab %}
 
 {% tab title="Host Age" %}
