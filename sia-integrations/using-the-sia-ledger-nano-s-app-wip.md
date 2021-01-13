@@ -78,7 +78,7 @@ _sialedger is the command-line program you'll use on your computer to talk to th
 * Download `sialedger` [here](https://gitlab.com/NebulousLabs/nanos-app-sia/tags/v0.4.0).
 
 {% hint style="info" %}
-Windows, MacOS, and Linux are all supported.
+Windows, macOS, and Linux are all supported.
 {% endhint %}
 
 * If you are on macOS, you may have to move sialedger to another folder \(such as Applications\) in order to run it.
@@ -89,7 +89,7 @@ Windows, MacOS, and Linux are all supported.
 
 ## Checking your wallet balance
 
-_There's a handful of commands you can use to interact with your siac wallet, but first you'll need to create and unlock your wallet._
+_There's a handful of commands you can use to interact with your siac wallet, but first, you'll need to create and unlock your wallet._
 
 {% hint style="info" %}
 The blockchain should be synced, or these commands will return errors.

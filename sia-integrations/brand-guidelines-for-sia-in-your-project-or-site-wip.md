@@ -53,9 +53,9 @@ Sia uses a number of colors.
 
 ![](../.gitbook/assets/brand-4.png)
 
-If you use the exact Sia logo or wordmark in any way, like to represent the fact that you integrate with Sia on your site, the image should either use our green, or one of these grays. In other words, don't use our exact logo or wordmark and change the color to match your color scheme.
+If you use the exact Sia logo or wordmark in any way, like to represent the fact that you integrate with Sia on your site, the image should either use our green or one of these grays. In other words, don't use our exact logo or wordmark and change the color to match your color scheme.
 
-When designing your own logo, feel free to draw from our color pallette or create your own.
+When designing your own logo, feel free to draw from our color palette or create your own.
 
 We can't wait to see what you build! Be sure you let us know in [Discord](https://discord.gg/sia).
 

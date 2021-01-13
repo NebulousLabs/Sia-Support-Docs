@@ -43,7 +43,7 @@ In fact, the cryptocurrency community may decide that the settlement strengthens
 
 ## Did the Sia team knowingly sell unregistered securities in 2014?
 
-No, we did not. At the time of the 2014 offering, we were not aware that Sianotes or Siafunds may be considered securities by the SEC. This offering took place months before the Ethereum offering, and years before the SEC issued any cryptocurrency-related guidance.
+No, we did not. At the time of the 2014 offering, we were not aware that Sianotes or Siafunds may be considered securities by the SEC. This offering took place months before the Ethereum offering and years before the SEC issued any cryptocurrency-related guidance.
 
 Given that we properly registered our 2018 offering of Siafunds in the wake of the SEC’s 2017 guidance regarding digital assets, we are disappointed that the SEC chose to take action with respect to our relatively small 2014 offering.
 
@@ -111,9 +111,9 @@ If you are based in the United States, you may be required to be an accredited i
 
 ## What is a Sianote?
 
-Sianotes were precursors to Siafunds. We sold Sianotes to investors in 2014, and exchanged them for Siafunds in mid-2015 when the Sia network launched.
+Sianotes were precursors to Siafunds. We sold Sianotes to investors in 2014 and exchanged them for Siafunds in mid-2015 when the Sia network launched.
 
-Sianotes were were sold for Bitcoin and issued on the NXT Asset Exchange.
+Sianotes were sold for Bitcoin and issued on the NXT Asset Exchange.
 
 ## I purchased Sianotes in the 2014 offering and exchanged them for Siafunds. What does this settlement mean for me?
 

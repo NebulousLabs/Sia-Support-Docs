@@ -5,7 +5,7 @@ As Sia network usage increases, Siafunds will accrue Siacoins over time. [Learn 
 If you're a Siafund owner, you have the option of cashing out these accrued Siacoins at any point by sending your Siafunds to a Sia address you own. This can be the same wallet the Siafunds are currently in, or a different wallet you control.
 
 {% hint style="info" %}
-You **do not** lose the Siafunds in this process. You'll always retain control over them unless you send them to someone else, or a bad address.
+You **do not** lose the Siafunds in this process. You'll always retain control over them unless you send them to someone else or a bad address.
 {% endhint %}
 
 ## How many Siacoins has my Siafund earned?
@@ -60,7 +60,7 @@ You'll immediately get a confirmation.
 
 ![](../.gitbook/assets/siafunds-cashout-6.png)
 
-And you'll see a small tag appear under your balance to let you know the transaction is on its way, but hasn't yet appeared in a block.
+And you'll see a small tag appear under your balance to let you know the transaction is on its way but hasn't yet appeared in a block.
 
 ## For advanced users
 
@@ -68,5 +68,5 @@ If you're using siac, the process is the same. Just initiate a transaction and s
 
 `siac wallet send siafunds <amount> <destination address (must be your own)>`
 
-to take the accrued Siacoins and put them in your wallet. The Siafunds will still be on your wallet, because you sent them to your own address.
+to take the accrued Siacoins and put them in your wallet. The Siafunds will still be on your wallet because you sent them to your own address.
 
