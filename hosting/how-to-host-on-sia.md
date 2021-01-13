@@ -2,7 +2,7 @@
 
 This section takes you through how to actually set up a Sia host.
 
-## Thing you'll need
+## Things you'll need
 
 Not meeting these requirements can have a range of effects: you may be unable to host, you may not receive any storage contracts from renters, or you may even risk losing your own Siacoins as a penalty. Hosting is a serious commitment. If you're going to do it, do it right.
 
@@ -25,7 +25,7 @@ Click **Add a folder**, then select a location. You can choose a drive \(like D:
 
 ![](../.gitbook/assets/hosting-2.png)
 
-Tell Sia how much space you want to allocate to hosting, in megabytes. Entering a value lower than 32 GB will provide a warning, since as a host you're graded on having a lot of available storage. Set at least 4 TB if you can. You can type in a value if you want to set a value higher than what the slider allows.
+Tell Sia how much space you want to allocate to hosting, in megabytes. Entering a value lower than 32 GB will provide a warning since as a host you're graded on having a lot of available storage. Set at least 4 TB if you can. You can type in a value if you want to set a value higher than what the slider allows.
 
 Here are some quick values you can use to get started:
 
