@@ -16,13 +16,13 @@ Uploading happens in Sia-UI or your preferred command-line interface. Sia-UI has
 
 #### Daniel's attempt:
 
-When you upload a file to Sia, it first gets processed on your machine to allow for maximum redundancy and security on the network. It is first split into manageable chunks. These chunks are then run through a process that creates 30 pieces, each of which gets encrypted before being sent to a different host. Only 10 of the 30 pieces are needed to reconstruct your file, but no host ever sees more than one. This means 20 hosts could drop from the network and your storage will still be safe and secure.
+When you upload a file to Sia, it first gets processed on your machine to allow for maximum redundancy and security on the network. It is first split into manageable chunks. Each chunk is then run through a process that creates 30 pieces, each of which gets encrypted before being sent to a different host. Only 10 of the 30 pieces are needed to reconstruct a chunk, but no host ever sees more than one. This means, for each part of your original file, 20 hosts could drop from the network and your storage will still be safe and secure.
 
 {% hint style="info" %}
 For the more technical readers, here is what happens behind the scenes:
 
-* Files are chunked into 40MB chunks \(if a file is smaller, it is padded to 40MB so that data look identical as it moves across networks\)
-* Each chunk is then erasure-coded using Reed-Solomon encoding. After processing, each chunk has 30 unique 4MB  pieces associated with it.
+* Files are chunked into 40MB chunks \(if a file is smaller, it is padded to 40MB so that data looks identical as it moves across networks\)
+* Each chunk is then erasure-coded using Reed-Solomon encoding. After processing, each chunk has 30 unique 4MB pieces associated with it.
 * Each piece is then encrypted using \_\_\_\_ and uploaded to a distinct host.
 * Because Reed-Solomon encoding is done with 10 data shards and 20 parity shards, any 10 pieces are sufficient for rebuilding the file.
 {% endhint %}
