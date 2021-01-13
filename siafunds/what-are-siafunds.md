@@ -28,7 +28,7 @@ We created Siafunds in order to sustainably fund the development of the Sia netw
 
 ## Tokenized securities vs utility tokens
 
-We believe Siafunds are “tokenized securities” rather than “utility” tokens. Utility tokens primarily derive their value from use on a blockchain platform, like Siacoins. Siafunds, by contrast, derive their value from the present and future value of the Sia storage network.
+Siafunds were designated as securities by the SEC back in 2018. Utility tokens primarily derive their value from use on a blockchain platform, like Siacoins. Siafunds, by contrast, derive their value from the present and future value of the Sia storage network.
 
 ## How many Siafunds are there?
 
