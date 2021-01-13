@@ -2,13 +2,13 @@
 
 ## Sia docs v3
 
-This marks the second major redo in our documenation history, bringing us to version 3 overall. These docs are now created with [GitBook](https://www.gitbook.com), a powerful documentation creator and editor.
+This marks the second major redo in our documentation history, bringing us to version 3 overall. These docs are now created with [GitBook](https://www.gitbook.com), a powerful documentation creator and editor.
 
 The first move came back in 2018, when we moved to [HelpDocs](https://www.helpdocs.io).
 
 ![](../.gitbook/assets/sia-support-v2.png)
 
-HelpDocs was great, and I highly recommend it if you need a simple and flexible knowledge base. It served over a million article views for us during its time in use, and provided a high level of support for our community.
+HelpDocs was great, and I highly recommend it if you need a simple and flexible knowledge base. It served over a million article views for us during its time in use and provided a high level of support for our community.
 
 For us, the move came from two sources: a desire to get our documentation into a more powerful platform, and to allow our community the ability to contribute to docs as well.
 
@@ -17,6 +17,8 @@ With GitBook, we are addressing a primary issue that our previous documentation 
 ### Submit your edits!
 
 You can edit these docs by submitting a Pull Request in the [Github repo](https://github.com/NebulousLabs/Sia-Support-Docs). The simplest way, of course, is to click **Edit on GitHub** which appears in the upper right corner of every page.
+
+This is a github edit made by Daniel.
 
 ## A comprehensive source of Sia information
 

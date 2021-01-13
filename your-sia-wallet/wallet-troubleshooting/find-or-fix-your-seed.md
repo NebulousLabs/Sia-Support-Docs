@@ -1,6 +1,6 @@
 # Find or fix your seed
 
-Your seed is the most imortant part of your Sia node because it controls access to your wallet and files. You need to keep it safe, but there are a few tools you have available to find or fix your Sia seed.
+Your seed is the most important part of your Sia node because it controls access to your wallet and files. You need to keep it safe, but there are a few tools you have available to find or fix your Sia seed.
 
 These commands can be used directly in `siac`. In Sia-UI, open the Terminal from the toolbar on the top of the app.
 
@@ -14,7 +14,7 @@ Your seed will be displayed. [Make sure you store your seed safely.](../the-impo
 
 ## Use siac utils
 
-siac utils has a couple commands that can help you troubleshoot your seed.
+siac utils has a couple of commands that can help you troubleshoot your seed.
 
 ### verify-seed
 

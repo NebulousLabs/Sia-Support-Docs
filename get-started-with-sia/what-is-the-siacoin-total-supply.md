@@ -1,10 +1,10 @@
 # What is the Siacoin total supply?
 
-Siacoins are the utility token powering the Sia network, and are intended to be used for the fulfillment of smart storage contracts on the decentralized network.
+Siacoins are the utility token powering the Sia network and are intended to be used for the fulfillment of smart storage contracts on the decentralized network.
 
 ## So what's the total supply?
 
-**Unlimited** – there will never be a cap on the number of Siacoins generated. Humans produce so much data that it is effectively a limitless amount – and when Sia is the industry standard storage layer of the Internet, we'll need lots of Siacoins to fulfill all those contracts. Additionally, the Proof of Burn mechanic \(more on this later\) functions to eliminate coins from the supply, so there needs to be a constant allowance of new Siacoins being created. As of July 2018, about 35.4 billions coins have been created, but the number of new coins introduced will slow as each new block is produced. By 2020, we should have about 45 billion coins in circulation.
+**Unlimited** – there will never be a cap on the number of Siacoins generated. Humans produce so much data that it is effectively a limitless amount – and when Sia is the industry-standard storage layer of the Internet, we'll need lots of Siacoins to fulfill all those contracts. Additionally, the Proof of Burn mechanic \(more on this later\) functions to eliminate coins from the supply, so there needs to be a constant allowance of new Siacoins being created. As of July 2018, about 35.4 billion coins have been created, but the number of new coins introduced will slow as each new block is produced. By 2020, we should have about 45 billion coins in circulation.
 
 Additionally, if the block reward were to stop miners would be disincentivized to continue providing their service to the network.
 
@@ -16,7 +16,7 @@ Siacoins are created only as block rewards during mining on the Sia Proof of Wor
 
 The number of Siacoins created each block is \(300,000 - height\). This means that a block with a block height of 165,000 created 135,000 Siacoins \(300,000 - 165,000\). After height 270,000, the block reward won't get lower and all blocks will have a reward of 30,000 Siacoins.
 
-By about July of 2020 when sia hits the 270,000 block height, there will be about 44.55 billion \(\(\(300,000+30,000\)/2\)x270,000=44.55 billion\) Siacoins available in the market. From there, there will be about 1.57 billion \(30,000x144x365=1.5678 billion\) Siacoins created from the mining every year, forever. For example, by March of 2021, there will be about 45.6 billion of siacoins available. By March of 2026, there will be about 53.5 billion Siacoins created.
+By about July of 2020 when Sia hits the 270,000 block height, there will be about 44.55 billion \(\(\(300,000+30,000\)/2\)x270,000=44.55 billion\) Siacoins available in the market. From there, there will be about 1.57 billion \(30,000x144x365=1.5678 billion\) Siacoins created from the mining every year, forever. For example, by March of 2021, there will be about 45.6 billion Siacoins available. By March of 2026, there will be about 53.5 billion Siacoins created.
 
 ## Will the number of coins ever be reduced?
 

@@ -4,7 +4,7 @@ When your Sia wallet is locked, it isn't able to perform common and important ta
 
 You can have your Sia wallet automatically unlock by setting up a few simple steps.
 
-## Set the envionment variable
+## Set the environment variable
 
 An environment variable is just a piece of information that is specific to your computer. In this case, it's your Sia wallet password, so you'll set an environment variable named `SIA_WALLET_PASSWORD`.
 
@@ -16,7 +16,7 @@ Environment variables are accessible by any program on your computer. If you sti
 
 Everything we do here won't matter much if you physically need to reboot your machine after it loses power. At that point, you could just launch Sia again on your own. This setting will allow your computer to reboot automatically anytime its power is interrupted.
 
-[Windows and Linux](https://www.technewsworld.com/story/78930.html) \(done through your BIOS, complete with instructions for connecting to an APC for smooth power downs and startups\)
+[Windows and Linux](https://www.technewsworld.com/story/78930.html) \(done through your BIOS, complete with instructions for connecting to an APC for smooth power-downs and startups\)
 
 [Mac](https://www.wikihow.com/Make-Your-Mac-Restart-Automatically-After-a-Power-Failure) \(only applicable to certain models\)
 

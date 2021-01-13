@@ -10,5 +10,5 @@ It can take over 10 minutes, and sometimes over an hour during peak times, for y
 
 If you are withdrawing from an exchange or a mining pool, and you do not see your transaction in the explorer within an hour or so, please file a support ticket with the exchange or pool.
 
-If your transaction does appear in the explorer, that's a good sign. Your transaction should reach its destination shortly, but there still may be delays due to network or exchange issues.
+If your transaction does appear in the explorer, that's a good sign. Your transaction should reach its destination shortly, but delays may still occur due to network or exchange issues.
 

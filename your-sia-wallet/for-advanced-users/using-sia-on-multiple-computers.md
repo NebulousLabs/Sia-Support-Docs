@@ -6,7 +6,7 @@ Using Sia on multiple computers can be an effective way to manage your Sia life.
 
 In short, don't. Using the same Sia seed on multiple computers can cause issues for your renter, host, and wallet balance.
 
-In part, it comes down to address generation and syncing that between the clients. It can cause your client to either not see or not catch in a timely manner transactions that the other client is getting. Your wallet, renter, or host are not rescanning the blockchain before every transaction they make to ensure that the funding source wasn't already used.
+In part, it comes down to address generation and syncing that data between the clients. It can cause your client to either not see or not catch in a timely manner the transactions that the other client is getting. Your wallet, renter, or host are not rescanning the blockchain before every transaction they make to ensure that the funding source wasn't already used.
 
 Two wallets can become out of sync and show different balances, and new transactions could be denied by the blockchain.
 

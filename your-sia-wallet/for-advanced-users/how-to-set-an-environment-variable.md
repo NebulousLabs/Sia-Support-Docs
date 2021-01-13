@@ -6,7 +6,7 @@ To set an environment variable on Linux, enter the following command at a shell 
 
 csh/tcsh: _variablevalue_ bash/ksh: _variable_=_value_
 
-where variable is the name of the environment variable \(such as \) and value is the value you want to assign to the variable, \(such as \). To find out what environment variables are set, use the command. To remove a variable from the environment, use the following commands:
+where `variable` is the name of the environment variable \(such as \) and `value` is the value you want to assign to the variable, \(such as \). To find out what environment variables are set, use the command. To remove a variable from the environment, use the following commands:
 
 csh/tcsh: _variable\_bash/ksh: \_variable_
 
@@ -57,7 +57,7 @@ When you have finished creating or editing environment variables, click OK in th
 
 When you have finished creating or editing environment variables, click OK in the Environment Variables dialog box to save the values. You can then close the Control Panel.
 
-## MacOS
+## macOS
 
 To set an environment variable on Mac OSX, first open a terminal window.If you are setting the environment variable to run jobs from the command line, use the following command:
 
@@ -81,7 +81,7 @@ To clear an environment variable, use the following command:
 
 **launchctl unsetenv** _variable_
 
-### Newer version of MacOS
+### Newer version of macOS
 
 See [this article](https://apple.stackexchange.com/questions/106355/setting-the-system-wide-path-environment-variable-in-mavericks) for instructions on how to create a "plist" file to store system-wide environment variables in newer versions of macOS.
 

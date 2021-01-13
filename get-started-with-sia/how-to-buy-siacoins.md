@@ -8,11 +8,11 @@ Some exchanges support direct fiat \(local currency\) to Siacoin purchases, but 
 
 ## What is KYC?
 
-No, this isn't chicken related. KYC stands for Know Your Customer, and is a set of identity verification rules that most exchanges have to follow to abide with local laws. This might include submitting scans of state or federal ID, or sending in your government ID numbers like a Social Security Number if you live in the US. You'll be guided through whatever KYC process your exchange of choice has.
+No, this isn't chicken related. KYC stands for Know Your Customer and is a set of identity verification rules that most exchanges have to follow to abide by local laws. This might include submitting scans of state or federal ID, or sending in your government ID numbers like a Social Security Number if you live in the US. You'll be guided through whatever KYC process your exchange of choice has.
 
 ## Buy SC from an exchange
 
-This option gets you the best prices, but has a fairly intense on-ramp for a new user.
+This option gets you the best prices but has a fairly intense on-ramp for a new user.
 
 This example will use [Bittrex](https://bittrex.com/), a US-based exchange that allows you to trade regular US dollars \(USD\), BTC, ETH, or USDT for Siacoins. But the general process will be similar no matter which exchange you use.
 
@@ -39,5 +39,5 @@ Click **Buy Now**.
 
 ![](../.gitbook/assets/transak-widget-2.png)
 
-Then enter in your SC address [that you made](../your-sia-wallet/how-to-make-a-sia-address.md), and click **Buy Now** again to proceed through transaction process.
+Then enter in your SC address [that you made](../your-sia-wallet/how-to-make-a-sia-address.md), and click **Buy Now** again to proceed through the transaction process.
 

@@ -1,10 +1,10 @@
 # The importance of your seed
 
-Your Sia seed is your key to your Siacoin balance, and in the future it will be the key to your files as well. It’s the most important piece of information in your Sia experience.
+Your Sia seed is your key to your Siacoin balance, and in the future, it will be the key to your files as well. It’s the most important piece of information in your Sia experience.
 
 ## About the seed
 
-* It’s 29 words... most of the time. There's a small chance you'll get a 28 word seed.
+* It’s 29 words... most of the time. There's a small chance you'll get a 28-word seed.
 * It's generated when you first make your Siacoin wallet
 * It will also be your wallet password unless you set a custom password
 * If you have your correct seed, you can always recover your Siacoin balance.
@@ -26,7 +26,7 @@ Because your seed is so important, you should have physical and digital methods 
 
 #### Physically Safe
 
-Keep a laminated paper copy stored in a locked safe, or a bank safe deposit box.
+Keep a laminated paper copy stored in a locked safe or a bank safe deposit box.
 
 #### Digitally Safe
 
@@ -56,7 +56,7 @@ It would take modern technology trillions upon trillions of years to figure out 
 
 ### Using a custom password
 
-During wallet creation, you have an option to create a custom password for getting in and out of your wallet. You can also set this afterwards at any point. This allows you to use something familiar instead of the wallet seed.
+During wallet creation, you have an option to create a custom password for getting in and out of your wallet. You can also set this afterward at any point. This allows you to use something familiar instead of the wallet seed.
 
 {% hint style="success" %}
 **Pro:** You don’t have to type in a ton of words every time you want to unlock your wallet.

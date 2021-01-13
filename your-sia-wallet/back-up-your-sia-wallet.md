@@ -10,7 +10,7 @@ When you first create your wallet in Sia, you are presented with your Sia seed �
 
 ### About the Sia seed
 
-* It’s 29 words... most of the time. There's a small chance you'll get a 28 word seed.
+* It’s 29 words... most of the time. There's a small chance you'll get a 28-word seed.
 * It's generated when you first make your Siacoin wallet.
 * As long as you have a copy of your 29-word seed, you can recover your Siacoins and your uploaded files, as long as you've backed up your metadata. Learn how to load a wallet from a seed \(WIP\).
 
@@ -25,7 +25,7 @@ Because your seed is so important, you should have physical and digital methods 
 
 ### Physically Safe
 
-Keep a laminated paper copy stored in a locked safe, or a bank safe deposit box.
+Keep a laminated paper copy stored in a locked safe or a bank safe deposit box.
 
 ### Digitally Safe
 
@@ -39,7 +39,7 @@ There's an old saying about data.
 
 > Your data isn't safe unless it's backed up three different ways in three separate physical locations.
 
-If there were a fire in your home, would your important things be safe? Even if you had the stuff you cared about backed up onto a hundred hard drives, and printed out three copies of every photo you cared about – what would happen if your home flooded?
+If there were a fire in your home, would your important things be safe? Even if you had the stuff you cared about backed up onto a hundred hard drives and printed out three copies of every photo you cared about – what would happen if your home flooded?
 
 These are things to consider when creating a backup strategy for your digital necessities. And I don't use the word strategy lightly – keeping your data safe is a constant, evolving practice. Hard drives fail, drinks are spilled, electrical surges occur. Time moving forward, as it always will, increases the risk that your data will no longer be your data. When your last failsafe fails, you have entered into a data loss event. Make sure yours is minimized.
 
