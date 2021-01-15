@@ -1,4 +1,4 @@
-# Wallet Overview
+# Wallet overview
 
 Sia-UI and `siac` are the best places to store your Siacoins. They're also the only official apps made by the developers of the Sia network.
 

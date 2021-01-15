@@ -12,7 +12,7 @@
 
 ## Your Sia Wallet
 
-* [Wallet Overview](your-sia-wallet/wallet-overview.md)
+* [Wallet overview](your-sia-wallet/wallet-overview.md)
 * [The importance of your seed](your-sia-wallet/the-importance-of-your-seed.md)
 * [How to make a Sia address](your-sia-wallet/how-to-make-a-sia-address.md)
 * [How to send Siacoins](your-sia-wallet/how-to-send-siacoins.md)
