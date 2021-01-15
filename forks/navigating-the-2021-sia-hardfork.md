@@ -18,11 +18,11 @@ You can reference our [Sia API docs](https://sia.tech/docs/) for technical docum
 
 ## Timeline
 
-[Sia v1.5.4 has been released](https://sia.tech/get-started). The fork will be implemented at a block height of 298,000, which is expected to be on February 3rd around 11 pm ET, 8 pm PT. **Be updated to 1.5.4 by this date.**
+Sia v1.5.4 has been released, [download it here](https://sia.tech/get-started). The fork will be implemented at a block height of 298,000, which is expected to be on February 3rd around 11 pm ET, 8 pm PT. **Be updated to 1.5.4 by this date.**
 
 ## For renters and hosts
 
-Renters and hosts need to upgrade to v1.5.4 by February 3rd.
+Renters and hosts need to [upgrade to v1.5.4](https://sia.tech/get-started) by February 3rd.
 
 Doing so ensures that renters will continue to upload data to hosts also on the new fork. Hosts who fail to upgrade in time will no longer form contracts with renters who upgrade. Long story short, you need to be on the same version as everyone else or you aren't part of the same network.
 
@@ -32,7 +32,7 @@ Nothing will change. You can check in with your mining pool to make sure they've
 
 ## For exchanges
 
-Exchanges should upgrade to v1.5.4 by February 1st at the latest. Due to the volume of users you serve, you should leave time for a proper upgrade. Once you do, your exchange will be able to support the fork once it takes effect.
+Exchanges should [upgrade to v1.5.4](https://sia.tech/get-started) by February 1st at the latest. Due to the volume of users you serve, you should leave time for a proper upgrade. Once you do, your exchange will be able to support the fork once it takes effect.
 
 {% hint style="warning" %}
 Transactions created before the fork block but not confirmed yet will not be valid anymore after the fork block. We recommend that you pause withdrawals and don't send any transactions for the 6 hours leading up to the fork, and the 2 hours following the fork. This will prevent you from having your transactions become invalid.
@@ -48,7 +48,7 @@ curl -A "Sia-Agent" -u "":<apipassword> "localhost:9980/daemon/update"
 
 ### For users that store in our official wallet
 
-Siacoin holders need to upgrade to v1.5.4 by February 3rd. There are two versions of Sia: Sia-UI for most users, and siac for advanced users. When you store them here, you control the private keys. When the hardfork hits at block 298,000, your updated 1.5.4 version of Sia will instantly give you access to the new chain, and all of your Siacoins will be available to you.
+Siacoin holders need to [upgrade to v1.5.4](https://sia.tech/get-started) by February 3rd. There are two versions of Sia: Sia-UI for most users, and siac for advanced users. When you store them here, you control the private keys. When the hardfork hits at block 298,000, your updated 1.5.4 version of Sia will instantly give you access to the new chain, and all of your Siacoins will be available to you.
 
 {% hint style="warning" %}
 If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
