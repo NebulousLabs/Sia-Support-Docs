@@ -16,7 +16,23 @@ With GitBook, we are addressing a primary issue that our previous documentation 
 
 ### Submit your edits!
 
-You can edit these docs by submitting a Pull Request in the [Github repo](https://github.com/NebulousLabs/Sia-Support-Docs). The simplest way, of course, is to click **Edit on GitHub** which appears in the upper right corner of every page.
+You can edit these docs by submitting a proposal in the [GitHub repo](https://github.com/NebulousLabs/Sia-Support-Docs). The simplest way is to click **Edit on GitHub** which appears in the upper right corner of every page.
+
+![](../.gitbook/assets/intro-1.png)
+
+You'll be taken to GitHub, which is a website that lets multiple people collaborate on code. The code, in this case, is our support document.
+
+Login or create a GitHub account, then click **Edit the file in your fork of this project**.
+
+![](../.gitbook/assets/intro-2.png)
+
+Because you're contributing, you're not directly editing the file. This helps prevent people from vandalizing the site. You're making a fork of the support docs, which is your own little version of them where can you make any edits you want.
+
+Once you make your changes, scroll down to the bottom. Add a title to your edits, and a description that lets us know what you're changing and why. Click **Propose changes**.
+
+![](../.gitbook/assets/intro-3.png)
+
+This sends it to us. It won't be live right away – we have to review and approve your edits first. But this gives the community an incredible way to contribute to Sia documentation.
 
 ## A comprehensive source of Sia information
 
