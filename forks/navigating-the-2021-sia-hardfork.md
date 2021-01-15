@@ -28,11 +28,11 @@ Doing so ensures that renters will continue to upload data to hosts also on the 
 
 ## For miners
 
-Nothing will change. You can check in with your mining pool to make sure they've updated, but we've received confirmation from the following pools that they will update: Luxor, SiaMining, f2pool, Dxpool.
+Nothing will change. You can check in with your mining pool to make sure they've updated, but we've received confirmation from the following major pools that they will update: Luxor, SiaMining, f2pool, Dxpool.
 
 ## For exchanges
 
-Exchanges need to upgrade to v1.5.4 by February 1st at the latest. Due to the volume of users you serve, you should leave time for a proper upgrade. Once you do, your exchange will be able to support the fork once it takes effect.
+Exchanges should upgrade to v1.5.4 by February 1st at the latest. Due to the volume of users you serve, you should leave time for a proper upgrade. Once you do, your exchange will be able to support the fork once it takes effect.
 
 {% hint style="warning" %}
 Transactions created before the fork block but not confirmed yet will not be valid anymore after the fork block. We recommend that you pause withdrawals and don't send any transactions for the 6 hours leading up to the fork, and the 2 hours following the fork. This will prevent you from having your transactions become invalid.
@@ -50,7 +50,7 @@ curl -A "Sia-Agent" -u "":<apipassword> "localhost:9980/daemon/update"
 
 Siacoin holders need to upgrade to v1.5.4 by February 3rd. There are two versions of Sia: Sia-UI for most users, and siac for advanced users. When you store them here, you control the private keys. When the hardfork hits at block 298,000, your updated 1.5.4 version of Sia will instantly give you access to the new chain, and all of your Siacoins will be available to you.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
 {% endhint %}
 
