@@ -76,16 +76,16 @@ The second column will have three values:
 
 | Exchange | Updating to 1.5.4 |
 | :--- | :--- |
-| Binance | Confirmed |
+| Binance | **Complete** |
 | BiOne | Informed |
 | Bittrex | Confirmed |
 | Digifinex | Informed |
-| HitBTC | Informed |
+| HitBTC | Confirmed |
 | Huobi Global | Confirmed |
 | Kraken | Confirmed |
 | Lbank | Informed |
 | OKex | Confirmed |
-| Poloniex | Informed |
+| Poloniex | Confirmed |
 | Upbit | Confirmed |
 | VCC | Informed |
 
