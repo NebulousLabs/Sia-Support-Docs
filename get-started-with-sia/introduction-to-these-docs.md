@@ -18,8 +18,6 @@ With GitBook, we are addressing a primary issue that our previous documentation 
 
 You can edit these docs by submitting a Pull Request in the [Github repo](https://github.com/NebulousLabs/Sia-Support-Docs). The simplest way, of course, is to click **Edit on GitHub** which appears in the upper right corner of every page.
 
-This is a github edit made by Daniel.
-
 ## A comprehensive source of Sia information
 
 The info in these docs has been taken from a number of sources, primarily the previous Sia Support Center and community-driven sites like the Sia Wiki, SiaStats, and SiaSetup. Thanks to these sites and the many others that have contributed to the Sia ecosystem over the years.
