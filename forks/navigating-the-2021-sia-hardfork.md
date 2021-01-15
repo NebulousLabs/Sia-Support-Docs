@@ -10,9 +10,11 @@ This guide is strictly practical. If you'd like to learn more about the Foundati
 
 [The Sia Foundation proposal](https://www.reddit.com/r/siacoin/comments/iox6ly/proposal_the_sia_foundation/)
 
+[Launching the Sia Foundation](https://blog.sia.tech/launching-the-sia-foundation-ee47dfab4d2c)
+
 [The Sia forums](https://forum.sia.tech)
 
-And you can also reference our [Sia API docs](https://sia.tech/docs/) for technical documentation on Sia and updating via CLI.
+You can reference our [Sia API docs](https://sia.tech/docs/) for technical documentation on Sia and updating via CLI.
 
 ## Timeline
 
