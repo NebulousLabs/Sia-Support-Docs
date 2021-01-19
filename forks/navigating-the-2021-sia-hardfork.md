@@ -87,7 +87,7 @@ The second column will have three values:
 | OKex | Confirmed |
 | Poloniex | Confirmed |
 | Upbit | Confirmed |
-| VCC | Informed |
+| VCC | Confirmed |
 
 ## More questions?
 
