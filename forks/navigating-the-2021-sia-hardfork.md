@@ -48,10 +48,10 @@ curl -A "Sia-Agent" -u "":<apipassword> "localhost:9980/daemon/update"
 
 ### For users that store in our official wallet
 
-Siacoin holders need to [upgrade to v1.5.4](https://sia.tech/get-started) by February 3rd. There are two versions of Sia: Sia-UI for most users, and siac for advanced users. When you store them here, you control the private keys. When the hardfork hits at block 298,000, your updated 1.5.4 version of Sia will instantly give you access to the new chain, and all of your Siacoins will be available to you.
+Siacoin holders should [upgrade to v1.5.4](https://sia.tech/get-started) by February 3rd. There are two versions of Sia: Sia-UI for most users, and siac for advanced users. When the hardfork hits at block 298,000, your updated 1.5.4 version of Sia will instantly give you access to the new chain, and all of your Siacoins will be available to you.
 
 {% hint style="warning" %}
-If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it.
+If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it. **You never lose your coins. Once you update to the new chain, your coins will be available to you again.**
 {% endhint %}
 
 [Learn how to download and install Sia-UI](../your-sia-wallet/sia-ui-faqs/how-to-download-and-install-sia-ui.md)
