@@ -83,7 +83,7 @@ The second column will have three values:
 | HitBTC | Confirmed |
 | Huobi Global | Confirmed |
 | Kraken | Confirmed |
-| Lbank | Informed |
+| Lbank | Confirmed |
 | OKex | Confirmed |
 | Poloniex | Confirmed |
 | Upbit | Confirmed |
