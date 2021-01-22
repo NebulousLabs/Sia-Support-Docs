@@ -30,6 +30,13 @@ Doing so ensures that renters will continue to upload data to hosts also on the 
 
 Nothing will change. You can check in with your mining pool to make sure they've updated, but we've received confirmation from the following major pools that they will update: Luxor, SiaMining, f2pool, Dxpool.
 
+| Pool | Status |
+| :--- | :--- |
+| Luxor | Confirmed, will be updating |
+| SiaMining | Confirmed, will be updating |
+| F2Pool | **Update Complete** |
+| DxPool | Confirmed, will be updating |
+
 ## For exchanges
 
 Exchanges should [upgrade to v1.5.4](https://sia.tech/get-started) by February 1st at the latest. Due to the volume of users you serve, you should leave time for a proper upgrade. Once you do, your exchange will be able to support the fork once it takes effect.
@@ -76,7 +83,7 @@ The second column will have three values:
 
 | Exchange | Updating to 1.5.4 |
 | :--- | :--- |
-| Binance | **Complete** |
+| Binance | **Update Complete** |
 | BiOne | Informed |
 | Bittrex | Confirmed |
 | Digifinex | Informed |
