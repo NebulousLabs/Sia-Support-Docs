@@ -53,6 +53,8 @@ curl -A "Sia-Agent" -u "":<apipassword> "localhost:9980/daemon/update"
 
 ## For Siacoin holders
 
+First, one important thing. You'll have the exact same amount of Siacoins after the fork.
+
 ### For users that store in our official wallet
 
 Siacoin holders should [upgrade to v1.5.4](https://sia.tech/get-started) by February 3rd. There are two versions of Sia: Sia-UI for most users, and siac for advanced users. When the hardfork hits at block 298,000, your updated 1.5.4 version of Sia will instantly give you access to the new chain, and all of your Siacoins will be available to you.
@@ -69,7 +71,7 @@ If you don't upgrade in time, you will brick your `consensus.db` file. This is t
 
 ### For users that store Siacoins on an exchange
 
-When an exchange updates their wallet, you'll now have the same amount of coins on the new Sia chain. These coins are usable to trade with exchanges once they have upgraded and to buy storage from hosts who also use the new chain.
+You don't have to do anything. When an exchange updates their wallet, you'll now have the same amount of coins on the new Sia chain. These coins are usable to trade with exchanges once they have upgraded and to buy storage from hosts who also use the new chain.
 
 ## Exchange Support
 
@@ -95,6 +97,10 @@ The second column will have three values:
 | Poloniex | Confirmed |
 | Upbit | Confirmed |
 | VCC | Confirmed |
+
+## For Ledger Nano S users
+
+You'll need to update your app. Use [Ledger Live](../sia-integrations/using-the-sia-ledger-nano-s-app.md#install_the_sia_ledger_nano_s_app) in Developer mode to find and update the Siacoin app.
 
 ## More questions?
 
