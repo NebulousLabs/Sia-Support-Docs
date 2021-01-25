@@ -101,7 +101,7 @@ The second column will have three values:
 
 ## For Ledger Nano S users
 
-You'll need to update your app. Use [Ledger Live](../sia-integrations/using-the-sia-ledger-nano-s-app.md#install_the_sia_ledger_nano_s_app) in Developer mode to find and update the Siacoin app.
+You'll need to update your app, but you should do it after the hardfork activates. Updating before the fork will your signatures won't be valid. Use [Ledger Live](../sia-integrations/using-the-sia-ledger-nano-s-app.md#install_the_sia_ledger_nano_s_app) in Developer mode to find and update the Siacoin app.
 
 ## More questions?
 
