@@ -88,13 +88,14 @@ The second column will have three values:
 | Binance | **Update Complete** |
 | BiOne | Informed |
 | Bittrex | Confirmed |
+| CoinEx | **Update Complete** |
 | Digifinex | Informed |
 | HitBTC | Confirmed |
 | Huobi Global | Confirmed |
 | Kraken | Confirmed |
 | Lbank | Confirmed |
 | OKex | Confirmed |
-| Poloniex | Confirmed |
+| Poloniex | **Update Complete** |
 | Upbit | Confirmed |
 | VCC | Confirmed |
 
