@@ -96,7 +96,7 @@ The second column will have three values:
 | Lbank | Confirmed |
 | OKex | Confirmed |
 | Poloniex | **Update Complete** |
-| Upbit | Confirmed |
+| Upbit | **Update Complete** |
 | VCC | Confirmed |
 
 ## For Ledger Nano S users
