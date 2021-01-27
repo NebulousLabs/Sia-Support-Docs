@@ -91,7 +91,7 @@ The second column will have three values:
 | CoinEx | **Update Complete** |
 | Digifinex | Informed |
 | HitBTC | Confirmed |
-| Huobi Global | Confirmed |
+| Huobi Global | **Update Complete** |
 | Kraken | **Update Complete** |
 | Lbank | Confirmed |
 | OKex | Confirmed |
