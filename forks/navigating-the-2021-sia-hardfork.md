@@ -35,7 +35,7 @@ Nothing will change. You can check in with your mining pool to make sure they've
 | Luxor | Confirmed, will be updating |
 | SiaMining | Confirmed, will be updating |
 | F2Pool | **Update Complete** |
-| DxPool | Confirmed, will be updating |
+| DxPool | **Update Complete** |
 
 ## For exchanges
 
