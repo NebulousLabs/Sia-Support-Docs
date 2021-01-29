@@ -22,7 +22,7 @@ Sia v1.5.4 has been released. The fork will be implemented at a block height of 
 
 [Download 1.5.4 from our site](https://sia.tech/get-started) \(best for most users\)
 
-[Download 1.5.4 directly](https://gitlab.com/NebulousLabs/Sia/-/releases) \(if you prefer to build it yourself\)
+[Download 1.5.4 from Gitlab](https://gitlab.com/NebulousLabs/Sia/-/releases) \(if you prefer to build it yourself\)
 
 ## For renters and hosts
 
