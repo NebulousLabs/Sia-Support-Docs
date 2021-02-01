@@ -91,7 +91,7 @@ The second column will have three values:
 | :--- | :--- |
 | Binance | **Update Complete** |
 | BiOne | Informed |
-| Bittrex | Confirmed |
+| Bittrex | **Update Complete** |
 | CoinEx | **Update Complete** |
 | Digifinex | Informed |
 | HitBTC | Confirmed |

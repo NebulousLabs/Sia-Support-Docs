@@ -30,13 +30,13 @@ If you're on 1.3.7 or earlier, you can easily find these folders by clicking **S
 
 If you're on 1.4.0 or later, use the Info button at the top of Sia.
 
-![](../.gitbook/assets/fork-2%20%281%29.png)
+![](../.gitbook/assets/fork-2%20%281%29%20%283%29.png)
 
 Then click **Open Data Folder.**
 
 Once you find the /sia folder:
 
-![](../.gitbook/assets/fork-3%20%281%29%20%281%29.png)
+![](../.gitbook/assets/fork-3%20%281%29%20%282%29%20%281%29.png)
 
 delete the `consensus` and `transactionpool` folders. Reopen Sia to let it sync the correct version of the blockchain.
 
