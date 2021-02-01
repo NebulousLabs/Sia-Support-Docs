@@ -81,7 +81,7 @@ This can only be changed in siac, or using the Terminal in Sia-UI with the comma
 
 ![](../.gitbook/assets/hosting-4.png)
 
-Click the slider at the top of the Host window next to the Announce Host button so it appears green. This will turn on your host for accepting new storage contracts from renters. Then, unless you used DDSN in a previous step, click **Announce Host** to the Sia network so that renters can find you.
+Click the slider at the top of the Host window next to the Announce Host button so it appears green. This will turn on your host for accepting new storage contracts from renters. Then, unless you used DDNS in a previous step, click **Announce Host** to the Sia network so that renters can find you.
 
 ### If you signed up for a DDNS service
 
