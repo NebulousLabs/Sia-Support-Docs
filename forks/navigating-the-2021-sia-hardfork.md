@@ -107,6 +107,10 @@ The second column will have three values:
 
 You'll need to update your app, but you should do it after the hardfork activates. Updating before the fork will your signatures won't be valid. Use [Ledger Live](../sia-integrations/using-the-sia-ledger-nano-s-app.md#install_the_sia_ledger_nano_s_app) in Developer mode to find and update the Siacoin app.
 
+## For SiaStream users
+
+SiaStream has been updated to support 1.5.4. If you run SiaStream, simply update to the [latest version](https://siastream.tech) and you're all set once the fork hits.
+
 ## More questions?
 
 Let us know! [Send us an email](mailto:hello@sia.tech), or [reach out to the community on Discord](https://discord.gg/sia).
