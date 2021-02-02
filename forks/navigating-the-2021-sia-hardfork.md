@@ -98,7 +98,7 @@ The second column will have three values:
 | Huobi Global | **Update Complete** |
 | Kraken | **Update Complete** |
 | Lbank | Confirmed |
-| OKex | Confirmed, updating Feb 1 |
+| OKex | **Update Complete** |
 | Poloniex | **Update Complete** |
 | Upbit | **Update Complete** |
 | VCC | Confirmed |
