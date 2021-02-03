@@ -1,8 +1,8 @@
 # Navigating the 2021 Sia hardfork
 
-The Sia network is hardforking to implement the Sia Foundation: a new non-profit entity that builds and supports distributed cloud storage infrastructure, with a specific focus on the Sia storage platform.
+The Sia network has implemented a hardfork to implement the Sia Foundation: a new non-profit entity that builds and supports distributed cloud storage infrastructure, with a specific focus on the Sia storage platform.
 
-[Countdown to the fork](https://siastats.info/fork) with this great tool from SiaStats!
+The hardfork occured around 4 pm ET on February 3rd. Track the fork with this [great tool](https://siastats.info/fork) from SiaStats!
 
 {% hint style="warning" %}
 The hardfork requires v1.5.4 of Sia. It is necessary to spend coins, receive coins, rent, or host after the fork. Every user, exchange, mining pool, wallet, and integration should upgrade as soon as possible.
@@ -20,7 +20,7 @@ You can reference our [Sia API docs](https://sia.tech/docs/) for technical docum
 
 ## Timeline
 
-Sia v1.5.4 has been released. The fork will be implemented at a block height of 298,000, which is expected to be on February 3rd before 3 pm ET, 12 pm PT. **Be updated to 1.5.4 by this date.**
+Sia v1.5.4 has been released. The fork will be implemented at a block height of 298,000, which occurred on February 3rd at around 4 pm ET, 1 pm PT.
 
 [Download 1.5.4 from our site](https://sia.tech/get-started) \(best for most users\)
 
@@ -35,13 +35,6 @@ Doing so ensures that renters will continue to upload data to hosts also on the 
 ## For miners
 
 Nothing will change. You can check in with your mining pool to make sure they've updated, but we've received confirmation from the following major pools that they will update: Luxor, SiaMining, f2pool, Dxpool.
-
-| Pool | Status |
-| :--- | :--- |
-| Luxor | **Update Complete** |
-| SiaMining | Confirmed, will be updating |
-| F2Pool | **Update Complete** |
-| DxPool | **Update Complete** |
 
 ## For exchanges
 
