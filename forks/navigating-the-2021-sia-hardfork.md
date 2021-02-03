@@ -2,6 +2,8 @@
 
 The Sia network is hardforking to implement the Sia Foundation: a new non-profit entity that builds and supports distributed cloud storage infrastructure, with a specific focus on the Sia storage platform.
 
+[Countdown to the fork](https://siastats.info/fork) with this great tool from SiaStats!
+
 {% hint style="warning" %}
 The hardfork requires v1.5.4 of Sia. It is necessary to spend coins, receive coins, rent, or host after the fork. Every user, exchange, mining pool, wallet, and integration should upgrade as soon as possible.
 {% endhint %}
