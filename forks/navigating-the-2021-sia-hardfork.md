@@ -18,7 +18,7 @@ You can reference our [Sia API docs](https://sia.tech/docs/) for technical docum
 
 ## Timeline
 
-Sia v1.5.4 has been released. The fork will be implemented at a block height of 298,000, which is expected to be on February 3rd around 11 pm ET, 8 pm PT. **Be updated to 1.5.4 by this date.**
+Sia v1.5.4 has been released. The fork will be implemented at a block height of 298,000, which is expected to be on February 3rd before 3 pm ET, 12 pm PT. **Be updated to 1.5.4 by this date.**
 
 [Download 1.5.4 from our site](https://sia.tech/get-started) \(best for most users\)
 
