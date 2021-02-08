@@ -25,12 +25,12 @@ Many of these issues can manifest when you're [on the wrong chain](using-the-wro
 
 You're on the wrong Sia chain if you're not on 1.5.4. Type `./siac version` in your CLI, or use the ⓘ in the top nav bar of Sia-UI to check.
 
-The easiest way to resync is to perform a clean install. The process requires:
+The most effective way to resync is to perform a clean install. The process requires:
 
 * your Sia seed
 * deleting the Sia data folders
 * deleting and re-downloading Sia
 * setting Sia up again
 
-It's a bit of a long process, mostly because of the re-sync. But re-syncing is something you're going to need to do anyway, and a clean install works 100% of the time. Use [this guide](../your-sia-wallet/sia-ui-faqs/how-to-perform-a-clean-install-in-sia-ui.md) for a detailed walkthrough of these steps.
+It's a bit of a long process, mostly because Sia will re-download the consensus blockchain file. But resyncing is something you're going to need to do anyway, and a clean install works 100% of the time. Use [this guide](../your-sia-wallet/sia-ui-faqs/how-to-perform-a-clean-install-in-sia-ui.md) for a detailed walkthrough of these steps.
 
