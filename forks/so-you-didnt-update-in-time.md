@@ -1,5 +1,5 @@
 ---
-description: ... and now you have to resync your Sia wallet.
+description: ...and now you have to resync your Sia wallet.
 ---
 
 # So, you didn't update in time for the fork
