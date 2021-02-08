@@ -14,7 +14,7 @@ Frequently, after a fork, users of a blockchain don't update right away. This me
 
 The same is true for Sia. If you have not updated to 1.5.4 or later, but send coins to someone who has updated, the transaction won't be received on the other end. It will look like those coins have disappeared.
 
-Since all exchanges that trade Siacoin will update to 1.5.4 or later, sending coins to an exchange from a pre-1.5.4 wallet will result in the loss of those coins.
+Since all exchanges that trade Siacoin will update to 1.5.4 or later, sending coins to an exchange from a pre-1.5.4 wallet will result in the apparent loss of those coins.
 
 ## Your coins are safe
 
@@ -42,7 +42,7 @@ delete the `consensus` and `transactionpool` folders. Reopen Sia to let it sync 
 
 ## Special considerations for miners
 
-Some forks come with no changes to the mining algorithm for their network. In this case, like with the [upcoming 2021 Sia network hardfork](navigating-the-2021-sia-hardfork.md), you just need to make sure your mining pool upgrades in time.
+Some forks come with no changes to the mining algorithm for their network. In this case, like with the[ 2021 Sia network hardfork](navigating-the-2021-sia-hardfork.md), you just need to make sure your mining pool upgrades in time \(they did\).
 
 Miners might be affected in other ways by a fork. If you've set up your miner to mine a certain coin, a fork might change the algorithm associated with mining that coin. An example of this was the 2018 Sia network hardfork, which invalidated all ASIC Sia miners except those produced by Obelisk. If you were using a Bitmain A3, Innosilicon S11, or any other non-Obelisk ASIC miner, you were no longer mining the primary dev-supported Sia chain after the fork.
 

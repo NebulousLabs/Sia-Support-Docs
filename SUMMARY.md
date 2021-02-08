@@ -82,4 +82,5 @@
 
 * [Using the wrong chain after a fork](forks/using-the-wrong-chain-after-a-fork.md)
 * [Navigating the 2021 Sia hardfork](forks/navigating-the-2021-sia-hardfork.md)
+* [So, you didn't update in time for the fork](forks/so-you-didnt-update-in-time.md)
 
