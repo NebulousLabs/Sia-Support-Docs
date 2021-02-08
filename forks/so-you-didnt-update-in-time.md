@@ -6,7 +6,7 @@ description: ...and now you have to resync your Sia wallet.
 
 ![](../.gitbook/assets/cap.jpg)
 
-On February 3rd, 2021 at block 298,000, the Sia network hardforked to implement the Sia Foundation: a new non-profit entity that builds and supports distributed cloud storage infrastructure, with a specific focus on the Sia storage platform.
+On February 3rd, 2021 at block 298,000, [the Sia network hardforked](navigating-the-2021-sia-hardfork.md) to implement the Sia Foundation: a new non-profit entity that builds and supports distributed cloud storage infrastructure, with a specific focus on the Sia storage platform.
 
 It's a great thing! But here you are, and you didn't update in time. Maybe you never even updated from the 2018 fork! You can't rent storage space, host, or send SC to friends or exchanges. For most people who updated ahead of time, it was a simple matter of [downloading the latest version and installing it](../your-sia-wallet/sia-ui-faqs/how-to-download-and-install-sia-ui.md).
 
