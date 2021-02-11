@@ -76,7 +76,7 @@
 
 * [Listing Siacoin on your exchange](sia-integrations/listing-siacoin-on-your-exchange.md)
 * [Using the Sia Ledger Nano S app](sia-integrations/using-the-sia-ledger-nano-s-app.md)
-* [Brand guidelines for Sia in your project or site](sia-integrations/brand-guidelines-for-sia-in-your-project-or-site.md)
+* [Brand guidelines for Sia in your project or site](sia-integrations/sia-brand-guidelines.md)
 
 ## Forks
 
