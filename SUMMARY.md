@@ -4,11 +4,11 @@
 
 ## Get Started with Sia
 
-* [Introduction to these docs](get-started-with-sia/introduction-to-these-docs.md)
-* [Sia 101](get-started-with-sia/sia-101.md)
+* [Introduction to these docs](get-started-with-sia/intro.md)
+* [Sia 101](get-started-with-sia/sia101.md)
 * [What are Siacoins?](get-started-with-sia/what-are-siacoins.md)
 * [How to buy Siacoins](get-started-with-sia/how-to-buy-siacoins.md)
-* [What is the Siacoin total supply?](get-started-with-sia/what-is-the-siacoin-total-supply.md)
+* [What is the Siacoin total supply?](get-started-with-sia/siacoin-total-supply.md)
 
 ## Your Sia Wallet
 
@@ -63,7 +63,7 @@
 ## Contributing
 
 * [How can I contribute to Sia?](contributing/how-can-i-contribute-to-sia.md)
-* [Where can I learn more about Sia?](contributing/where-can-i-learn-more-about-sia.md)
+* [Where can I learn more about Sia?](contributing/learn-more.md)
 
 ## Siafunds
 
