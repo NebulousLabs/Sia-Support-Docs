@@ -20,7 +20,7 @@ Go to the Files tab in Sia-UI. Click **Setup Allowance**.
 
 ![](../.gitbook/assets/rent-tab.png)
 
-Enter in the amount of Siacoin you'd like to spend for storage. You'll only ever pay for what tyou use, but entering an allowance that's close to what you'll actually use is a good idea. If you're not sure what to enter, use the default values.
+Enter in the amount of Siacoin you'd like to spend for storage. You'll only ever pay for what you use, but entering an allowance that's close to what you'll actually use is a good idea. If you're not sure what to enter, use the default values.
 
 In this example, we say that we want to spend 500 SC per TB. As today's prices, that's about $2. We also expect to store about 3 TB of data. Because the default is to store data for three months, the equation becomes:
 
