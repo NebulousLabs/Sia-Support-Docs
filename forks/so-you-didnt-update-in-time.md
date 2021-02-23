@@ -30,7 +30,11 @@ The most effective way to resync is to perform a clean install. The process requ
 * your Sia seed
 * deleting the Sia data folders
 * deleting and re-downloading Sia
-* setting Sia up again
+* setting Sia up again with your Sia seed
+
+{% hint style="info" %}
+After restoring Sia from your seed and resyncing, it might take your balance up to an hour to re-appear in the wallet as Sia performs more actions in the background.
+{% endhint %}
 
 It's a bit of a long process, mostly because Sia will re-download the consensus blockchain file. But resyncing is something you'll need to do anyway, and a clean install works 100% of the time. Use [this guide](../your-sia-wallet/sia-ui-faqs/how-to-perform-a-clean-install-in-sia-ui.md) for a detailed walkthrough of these steps.
 

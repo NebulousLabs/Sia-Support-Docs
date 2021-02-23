@@ -47,13 +47,13 @@ If you've updated to v1.3.1 or later, you can easily find these folders by click
 
 If you're on 1.4.0 or later, use the Info button at the top of Sia.
 
-![](../../.gitbook/assets/fork-2%20%281%29%20%283%29%20%281%29.png)
+![](../../.gitbook/assets/fork-2%20%281%29%20%283%29%20%283%29%20%281%29.png)
 
 Then click **Show Sia Data.**
 
 Once you find the `/sia` folder:
 
-![](../../.gitbook/assets/fork-3%20%281%29%20%282%29.png)
+![](../../.gitbook/assets/fork-3%20%281%29%20%282%29%20%282%29.png)
 
 Delete it.
 
@@ -88,6 +88,10 @@ On Windows and Linux, you can run the uninstaller found with the Program file - 
 At this point, you’ve deleted the Sia data folders and made sure you’re updated to the latest version of Sia-UI. Now you’ll need to restore your seed to make sure your Siacoin balance is restored.
 
 When you open Sia-UI, choose **Restore from seed**. [Learn how to do that here](how-to-restore-a-wallet-from-a-seed-in-sia-ui.md) if you need help.
+
+{% hint style="info" %}
+After restoring Sia from your seed and resyncing, it might take your balance up to an hour to re-appear in the wallet as Sia performs more actions in the background.
+{% endhint %}
 
 Sia-UI will then scan the blockchain for any Siacoin associated with your seed. This may take a while, but once it’s done your Wallet will show your previous Siacoin balance.
 
