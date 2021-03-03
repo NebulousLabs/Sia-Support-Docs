@@ -23,7 +23,7 @@ Many of these issues can manifest when you're [on the wrong chain](using-the-wro
 
 ## How to resync
 
-You're on the wrong Sia chain if you're not on 1.5.4. Type `./siac version` in your CLI, or use the ⓘ in the top nav bar of Sia-UI to check.
+You're on the wrong Sia chain if you're not on 1.5.4 or later. Type `./siac version` in your CLI, or use the ⓘ in the top nav bar of Sia-UI to check.
 
 The most effective way to resync is to perform a clean install. The process requires:
 
