@@ -75,7 +75,7 @@ _Unlike most Ledger Nano S apps, the Sia app requires a "full node." That means 
 
 _sialedger is the command-line program you'll use on your computer to talk to the Sia app on your Nano S._
 
-* Download `sialedger` [here](https://gitlab.com/NebulousLabs/nanos-app-sia/tags/v0.4.0).
+* Download `sialedger` [here](https://gitlab.com/NebulousLabs/nanos-app-sia/-/releases/v0.4.3).
 
 {% hint style="info" %}
 Windows, macOS, and Linux are all supported.
@@ -141,7 +141,7 @@ There are three main parts to a transaction:
 
 Start by collecting everything you need to construct the transaction:
 
-* Identify an output to spend. You can find outputs by searching [https://explorer.siahub.info](https://explorer.siahub.info) for an address you generated on your Nano S. Make note of the Output ID field and its value.
+* Identify an output to spend. You can find outputs by searching [https://siastats.info/navigator](https://siastats.info/navigator) for an address you generated on your Nano S. Make note of the Output ID field and its value.
 * Generate the public key of the address that owns the output. To do so, run `./sialedger pubkey n`   \(where n is the same key index you used to generate the address\). Confirm the pubkey generation on the Nano S by pressing the right button.
 
 ![](../.gitbook/assets/ledger-11.jpg)
