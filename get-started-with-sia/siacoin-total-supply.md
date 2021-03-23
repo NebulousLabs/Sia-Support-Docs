@@ -18,6 +18,8 @@ The number of Siacoins created each block is \(300,000 - height\). This means th
 
 By about July of 2020 when Sia hits the 270,000 block height, there will be about 44.55 billion \(\(\(300,000+30,000\)/2\)x270,000=44.55 billion\) Siacoins available in the market. From there, there will be about 1.57 billion \(30,000x144x365=1.5678 billion\) Siacoins created from the mining every year, forever.
 
+## The Sia Foundation
+
 In addition, Sia v1.5.4 introduced a network hardfork. The fork introduced the Sia Foundation, a new non-profit entity charged with supporting, developing, and promoting the Sia network. The Foundation changed the supply structure slightly as it is funded by an ongoing block subsidy of 30,000 Siacoins per block, paid out every 4,380 blocks. The hardfork also included an initial subsidy of approximately 1.57 billion Siacoins to help get the Foundation off the ground and fund initial development and activities.
 
 This creates a small single year spike in the inflation schedule of a few percentage points, but that quickly reduces back to nearly pre-fork levels. You can see the entire inflation schedule at the fantastic community site [SiaStats](https://siastats.info/macroeconomics).
