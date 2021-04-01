@@ -108,7 +108,7 @@ Again, each renter determines their score for your host. The more available spac
 {% tab title="Host Age" %}
 History matters. The longer you've been around, the more reliable you look to host scoring. There's a penalty applied to new hosts. How to beat that penalty you ask? Keep your host online.
 
-Once you've been online for about six weeks, about half of the default contract length, your penalty disappears!
+Once you've been online for about twelve weeks, about half of the default contract length, your penalty disappears!
 
 | Host Age \(Blocks\) | Host Age \(Days\) | Score Multiplier | % Reduction in Score |
 | :--- | :--- | :--- | :--- |
