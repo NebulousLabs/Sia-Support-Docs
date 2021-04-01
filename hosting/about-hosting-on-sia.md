@@ -108,18 +108,19 @@ Again, each renter determines their score for your host. The more available spac
 {% tab title="Host Age" %}
 History matters. The longer you've been around, the more reliable you look to host scoring. There's a penalty applied to new hosts. How to beat that penalty you ask? Keep your host online.
 
-Once you've been online for about six weeks, about half of the default contract length, your penalty disappears!
+Once you've been online for about twelve weeks, about half of the default contract length, your penalty disappears!
 
 | Host Age \(Blocks\) | Host Age \(Days\) | Score Multiplier | % Reduction in Score |
 | :--- | :--- | :--- | :--- |
-| 6,001 | 41.5 | 1.0 | 0% |
-| 6,000 | 41 | .50 | -50% |
-| 4,000 | 28 | .25 | -75% |
-| 2,000 | 14 | .125 | -87.5% |
-| 1,000 | 7 | .0625 | -93.75% |
-| 576 | 4 | .03125 | -96.875% |
-| 288 | 2 | .015625 | -98.4375% |
-| 144 | 1 | .0078125 | -99.21875% |
+| 12,001 | 83.5 | 1.0 | 0% |
+| 12,000 | 83 | .66667 | -33.33% |
+| 6,000 | 41 | .33333 | -66.67% |
+| 4,000 | 28 | .16667 | -83.33% |
+| 2,000 | 14 | .08333 | -91.667% |
+| 1,000 | 7 | .02778 | -97.222% |
+| 576 | 4 | .009259 | -99.0741% |
+| 288 | 2 | .0030864 | -99.69136% |
+| 144 | 1 | .0010288 | -99.89712% |
 {% endtab %}
 
 {% tab title="Interaction Weight" %}
