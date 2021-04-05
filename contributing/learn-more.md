@@ -20,7 +20,9 @@ Sia has great resources and a thriving community that loves to help others.
 
 [Discord \(share the link!\)](https://discord.gg/sia)
 
-[Twitter](https://twitter.com/siatechhq)
+[Twitter \(Skynet Labs\)](https://twitter.com/SkynetLabs)
+
+[Twitter \(Sia Foundation\)](https://twitter.com/Sia__Foundation)
 
 [Reddit](https://reddit.com/r/siacoin)
 
