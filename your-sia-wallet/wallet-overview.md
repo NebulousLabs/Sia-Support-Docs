@@ -6,8 +6,6 @@ Sia-UI and `siac` are the best places to store your Siacoins. They're also the o
 
 Sia-UI allows you to store Siacoins in a secure wallet, or rent or sell storage space on the Sia network. `siac` is a command-line client for Sia, and is only recommended for advanced users.
 
-Sia-UI allows you to store Siacoins in a secure wallet, or rent or sell storage space on the Sia network. `siac` is a command-line client for Sia, and is only recommended for advanced users.
-
 [Download Sia.](http://sia.tech/get-started)
 
 Your wallet gives you access to see your balance and transaction history, and the ability to send or receive Siacoin to any other Sia user.

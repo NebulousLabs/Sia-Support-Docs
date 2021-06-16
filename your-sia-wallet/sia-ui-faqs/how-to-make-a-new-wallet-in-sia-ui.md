@@ -14,7 +14,7 @@ When you first boot up Sia-UI, you'll be prompted to create a Siacoin wallet. A 
 
 After starting Sia, you'll see this screen. Click **Create new wallet.**
 
-![](../../.gitbook/assets/restore-1%20%282%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/restore-1%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 Next, you'll see your seed. Your seed is a string of \(usually 29\) words and is your key to your Siacoin wallet. It's also how you can recover your funds - or in the future, your files - from another computer.
 

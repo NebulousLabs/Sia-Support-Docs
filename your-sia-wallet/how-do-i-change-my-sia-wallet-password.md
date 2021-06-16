@@ -10,9 +10,9 @@ Even if you set a custom password, you still need to keep your seed safe. Learn 
 
 ## Things you'll need
 
-Sia-UI, downloaded and installed. &lt;link&gt;
+Sia-UI, [downloaded and installed](sia-ui-faqs/how-to-download-and-install-sia-ui.md).
 
-Your Sia-UI wallet set up. &lt;link&gt;
+Your Sia-UI wallet [set up](sia-ui-faqs/how-to-make-a-new-wallet-in-sia-ui.md).
 
 ## Using a custom password
 
