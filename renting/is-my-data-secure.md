@@ -22,7 +22,7 @@ Like we mentioned earlier, Sia divides each files into 30 segments before upload
 
 The [**Reed-Solomon erasure coding**](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) allows Sia to divide files in a redundant manner, where any 10 of 30 segments can fully recover a user's files.
 
-This means that if 20 out of 30 hosts go offline, a user is still able to download a files. And when hosts go offline, Sia automatically starts to re-duplicate them again. It would take a simultaneous global event to knock out enough hosts to damage the integrity of your files.
+This means that if 20 out of 30 hosts go offline, a user is still able to download a file. And when hosts go offline, Sia automatically starts to re-duplicate them again. It would take a simultaneous global event to knock out enough hosts to damage the integrity of your files.
 
 And because Sia is decentralized, no one person, company, or government can deny you access. It's global and governed by no one.
 
