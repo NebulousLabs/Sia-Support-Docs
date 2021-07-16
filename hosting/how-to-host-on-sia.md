@@ -15,6 +15,11 @@ Not meeting these requirements can have a range of effects: you may be unable to
   * [Get Siacoins](../get-started-with-sia/how-to-buy-siacoins.md)
 * **Storage space:** Spare hard drive space to rent out, ideally greater than 4 TB.
 
+### Enable Disk Compression \(Windows only, Optional\)
+Windows does not support sparse files by default, which causes downtime when adding large storage folders. This downtime can be avoided by enabling disk compression on any disk that you use for Sia storage. 
+
+![](../.gitbook/assets/host-disk-compression.png)
+
 ## The process
 
 Open Sia and click on the **Host** tab on the left. This is where you can configure your host settings. The first thing you do is tell Sia where your storage folder is. This is a location on the storage device you want to use for hosting.
