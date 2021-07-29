@@ -21,7 +21,7 @@ You store data on the network by:
 
 The Sia storage network uses a marketplace to find storage for your data. The cost of this storage, often referred to as **pricing**, is the market rate determined competitively by hosts and renters. If hosts find they can lower prices and win more data to store as a result, they'll do it. If renters are willing to pay more to store on high-quality hosts, those hosts might raise their prices.
 
-The price of storage is listed in Siacoins, the cryptocurrency used to buy and sell storage on the network. You'll need to \[get Siacoins\] in order to upload files. The price of a Siacoin can vary just like the price of any cryptocurrency. This is usually stable for periods of time, ut can sometimes have more significant shifts depending on the crypto trading markets.
+The price of storage is listed in Siacoins, the cryptocurrency used to buy and sell storage on the network. You'll need to \[get Siacoins\] in order to upload files. The price of a Siacoin can vary just like the price of any cryptocurrency. This is usually stable for periods of time, but can sometimes have more significant shifts depending on the crypto trading markets.
 
 Fortunately, the price of Siacoin doesn't really affect the price of Sia storage. Hosts set their own prices, which creates a marketplace where the best and most reliable hosts are competing for the storage contracts of those who want to upload data. Pricing on the network usually works out to around **$2 per TB per month.** Using Sia becomes more cost-efficient as you upload more data and store it for longer periods of time.
 
