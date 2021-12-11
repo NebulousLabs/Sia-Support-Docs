@@ -10,7 +10,7 @@ Siacoins are used for buying and selling storage space on the Sia network. We be
 
 Siacoins are stored in a Sia wallet. Our two official apps are Sia-UI or siac \(for command-line interfaces\). Only one instance of Sia can run at a time, so you’ll need to install it on multiple machines or virtual environments if you’d like to run more than a single wallet.
 
-You can download the latest release [directly from Gitlab,](https://gitlab.com/NebulousLabs/Sia/tags) or [from our website](https://sia.tech/get-started).
+You can download the latest release [directly from GitHub,]https://github.com/SiaFoundation/siad/releases) or [from our website](https://sia.tech/get-started).
 
 Learn how to download and install Sia-UI.
 
@@ -42,7 +42,7 @@ In the meantime, here are some answers to questions we’ve received regarding w
 
 **TLS/SSL Availability.** TLS/SSL is not currently available.
 
-**Transaction Fee.** The transaction fee is automatically set, but you can always get an estimated range via the API [https://github.com/NebulousLabs/Sia/blob/master/](https://github.com/NebulousLabs/Sia/blob/master/) doc/API.md\#tpoolfee-get
+**Transaction Fee.** The transaction fee is automatically set, but you can always get an estimated range via the API [https://github.com/NebulousLabs/Sia/blob/master/](https://github.com/NebulousLabs/Sia/blob/master/)
 
 **If the explorer returns incorrect info.** Instead of using the explorer, use the /consensus endpoints listed in the API documentation. These should get you the same info easily. We'll be working on the explorer soon.
 

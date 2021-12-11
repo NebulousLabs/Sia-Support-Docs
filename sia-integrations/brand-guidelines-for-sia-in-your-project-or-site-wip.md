@@ -12,7 +12,7 @@ In an effort to promote these goals, please use the following as guidelines when
 
 ## Official Sia assets
 
-[Get them here](https://gitlab.com/NebulousLabs/Sia/-/tree/master/doc/assets/community/sia). It includes our logo and wordmark in a variety of high-quality formats, as well as the built with Sia logo for third-party projects.
+[Get them here](https://github.com/SiaFoundation/siad/tree/master/doc/assets/community/sia). It includes our logo and wordmark in a variety of high-quality formats, as well as the built with Sia logo for third-party projects.
 
 ## `built with Sia`
 

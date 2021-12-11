@@ -26,5 +26,5 @@ Sia has great resources and a thriving community that loves to help others.
 
 [Reddit](https://reddit.com/r/siacoin)
 
-[GitLab](https://gitlab.com/nebulouslabs)
+[GitHub](https://github.com/SiaFoundation)
 
