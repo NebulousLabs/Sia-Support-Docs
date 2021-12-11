@@ -25,7 +25,7 @@ If this is your first time purchasing crypto, start with a small amount until yo
 {% endhint %}
 
 * Now you have the Siacoins in your Bittrex wallet, but exchange wallets aren’t a good place to store crypto, and you can’t use it for its intended purpose - using Sia.
-* Transfer to your Sia wallet by [making a Sia address](how-to-buy-siacoins.md) and then sending to it from Bittrex.
+* Transfer to your Sia wallet by [making a Sia address](../your-sia-wallet/how-to-make-a-sia-address.md) and then sending to it from Bittrex.
 
 ## Buy SC using Transak
 
