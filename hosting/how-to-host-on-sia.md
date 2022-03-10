@@ -8,9 +8,9 @@ Not meeting these requirements can have a range of effects: you may be unable to
 
 * **A reliable and stable setup:** You need a computer, Internet connection, and electricity that you can trust. Hosts are required to be online nearly 100% of the time or face financial penalties.
 * **Sia Prerequisites:** Make sure your computer meets the Sia requirements
-  * CPU: Sia does not require special CPU considerations. However, your CPU may become a bottleneck if your host becomes very popular with the renters, and they start uploading or downloading a lot of data to or from your host.
-  * RAM: 8 GB is a minimum, although your host will then likely be running out of memory quite often; 16 or even 32 GB is better.
-  * OS drive: An SSD with minimum 40 GB of free space recommended. At the time of writing this article, Sia blockchain was about 32 GB in size, and it’s growing constantly. You should avoid letting your OS drive run out of space, because then you will risk corrupting your host’s metadata.
+  * CPU: A minimum of a quad-core CPU is recommended. A weak CPU may become a bottleneck if your host becomes very popular with the renters, and they start uploading or downloading a lot of data to or from your host.
+  * RAM: 8 GB is a minimum, although your host will likely run out of memory under load; 16 GB, or more, is better.
+  * OS drive: An SSD with a minimum of 64 GB of free space is recommended. As of February 2022, the Sia blockchain was about 32 GB and constantly growing. You should avoid letting your OS drive run out of space to prevent corrupting your host's metadata.
   * Create a Sia wallet
   * [Get Siacoins](../get-started-with-sia/how-to-buy-siacoins.md)
 * **Storage space:** Spare hard drive space to rent out, ideally greater than 4 TB. It doesn’t have to be an SSD: an HDD would do just fine and also be much cheaper.
@@ -18,11 +18,11 @@ Not meeting these requirements can have a range of effects: you may be unable to
 
 ## Preparing Your Storage Drive\(s\) \(Windows Only, Optional\)
 
-NTFS file system of Windows does not support sparse files, which causes downtime when adding large \(several TB\) storage folders. To avoid this downtime, you can format your storage drive using ReFS before adding it to Sia network.
+NTFS file system of Windows does not support sparse files, which causes downtime when adding large \(several TB\) storage folders. You can format your storage drive using ReFS before adding it to Sia to avoid this downtime.
 
-Unfortunately, ReFS is not available on all Windows releases. It is currently available on Windows 10 Server, Windows 10 Enterprise, and Windows 10 Pro for Workstations. Of these, Windows 10 Pro for Workstations is the most available solution: it’s very easy to upgrade from Windows 10 Pro, and the upgrade license doesn’t cost much. After all, you will probably earn more Siacoins within the time, which your host would otherwise be spending on filling your storage space with zeroes, like it happens on NTFS.
+Unfortunately, ReFS is not available on all Windows releases. It is currently available on Windows 10 Server, Windows 10 Enterprise, and Windows 10 Pro for Workstations. Of these, Windows 10 Pro for Workstations is the most available solution: it’s quite easy to upgrade from Windows 10 Pro.
 
-Here is how you can make advantage of ReFS:
+Here is how you can take advantage of ReFS:
 
 1.	Right-click on your Windows icon and select Disk Management.
 2.	Create an NTFS partition on your new drive \(if this is a new drive\).
@@ -34,7 +34,7 @@ Here is how you can make advantage of ReFS:
 
 Windows updates often bring important security improvements, but if they happen when Windows wants it, and not you, it becomes a nightmare. Your PC can reboot without you knowing it, or the new software may decide that Sia is a virus and remove it. So, it is better to disable automatic updates.
 
-However, it’s not as easy as it sounds. You can stop Windows Update service, but it will start again after a reboot. You can even disable it, but it will become magically enabled again. The solution is to edit the Group Policy.
+However, it’s not as easy as it sounds. You can stop the Windows Update service, but it will start again after a reboot. The solution is to edit the Group Policy.
 
 1.	Right-click on your **Windows** icon and select **Run**.
 2.	Enter `gpedit.msc` and click **OK**.
@@ -44,10 +44,10 @@ However, it’s not as easy as it sounds. You can stop Windows Update service, b
 
 ## Forwarding Ports \(Required\)
 
-The number one reason that users have issues getting their host running is port forwarding. By default, the host is on port `:9982`, but you should forward all ports from `:9981` to `:9984`. You can see if your host has forwarded its port from this website: [http://canyouseeme.org/](http://canyouseeme.org/)
+User's number one issue when setting up a new host is port forwarding. To host, you should forward TCP ports `:9981` through `:9984`. You can see if your host has forwarded its port from this website: [http://canyouseeme.org/](http://canyouseeme.org/)
 
 {% hint style="warning" %}
-Be sure to not forward port 9980, as this can represent a security threat. You'll need to access your router's manual to learn how to set up port forwarding on your device.
+Do not forward port 9980, as this represents a security threat. You'll need to access your router's manual to learn how to set up port forwarding on your device.
 {% endhint %}
 
 ### What Each Port Does
@@ -59,7 +59,7 @@ Be sure to not forward port 9980, as this can represent a security threat. You'l
 
 If your port is not forwarded, it's probably because your router does not support UPnP. Unfortunately, that means you need to go into the configuration yourself and do it manually. There are some great guides to help you here: [https://portforward.com/](https://portforward.com/)
 
-Renters know to contact your host from the network address in the host announcement. If your IP address has changed since your announcement, you will need to announce again. If you have a firewall or some networking setup that may be blocking inbound connections from the internet, you need to make sure that it allows traffic to reach the host.
+Renters know to contact your host from the network address in the host announcement. If your IP address has changed since your announcement, you will need to announce again. If you have a firewall or networking setup that may block inbound internet connections, you need to make sure that it allows traffic to reach the host.
 
 Finally, if you have a dynamic IP address, you should strongly consider setting up something like DynDNS, which allows you to announce a hostname and then manages the dynamic IP address issue for you.
 
@@ -117,6 +117,10 @@ This can also be changed in `siac` or using Sia-UI Terminal with the command `ho
 
 `host config minstorageprice 50SC`
 
+{% hint style="warning" %}
+Please note that some renters have limited their maximum storage pricing.
+{% endhint %}
+
 ### Download per TB
 
 This is how much you charge renters for downloading data from your host.
@@ -163,43 +167,19 @@ This can only be changed in `siac`, or using the Terminal in Sia-UI with the com
 
 `host config collateralbudget 100000SC`
 
-### Base RPC Price
-
-This is how much you charge a renter per interaction with your host. It’s better to leave this number at zero or set it to a very low value.
-
-This can only be changed in `siac`, or using the Terminal in Sia-UI with the command `host config minbaserpcprice <value>`, e.g.
-
-`host config minbaserpcprice 0.000000001SC`
-
-### Sector Access Price
-
-This is how much you charge a renter for uploading or downloading a single sector. It’s better to leave this number at zero or set it to a very low value since this is charged additionally to the bandwidth price.
-
-This can only be changed in `siac`, or using the Terminal in Sia-UI with the command `host config minsectoraccessprice <value>`, e.g.
-
-`host config minsectoraccessprice 0.00000001SC`
-
 ### Registry Size and Location
 
 Registry is a special form of storage representing a key-value store. It’s currently used heavily by Skynet. Hosts are paid more for storing registry entries than for storing regular data.
 
-Recommended registry size is 4 GB. However, you need to keep in mind that the registry is stored on your drive, and that used entries are loaded into RAM during the host startup. So, if you’re running low on RAM or drive space, you should consider reducing the registry size on your host.
+Recommended registry size is 1 GB. However, you need to keep in mind that the registry is stored on your drive, and that used entries are loaded into RAM during the host startup. So, if you’re running low on RAM or drive space, you should consider reducing the registry size on your host.
 
 Registry settings can only be changed in `siac` or using the Terminal in Sia-UI. For setting the registry size the command `host config registrysize <value>` is used, e.g.
 
-`host config registrysize 4GB`
+`host config registrysize 1GB`
 
 If you want to specify a different location for the registry file \(default is in your host folder\), you can use the command `host config customregistrypath <value>`, e.g.
 
 `host config customregistrypath “D:\\Sia”`
-
-### Proof Window
-
-When a storage contract ends, by default your host has about 24 h \(144 blocks\) to submit a storage proof, which is quite enough to allow for some downtime. If your host fails to submit a storage proof within this window, then only the part of the locked collateral is returned to your wallet, which is not risked, i.e., is not backing up any data uploaded to your host. Any revenue associated with your bandwidth usage is also paid to your wallet.
-
-This can only be changed in `siac`, or using the Terminal in Sia-UI with the command `host config windowsize <value>`, e.g.
-
-`host config windowsize 1d`
 
 ## Announce Your Host
 
@@ -229,9 +209,9 @@ Read [this page](../your-sia-wallet/for-advanced-users/how-to-automatically-rest
 
 ## Check Host Configuration \(Optional\)
 
-Once you are set up, you can be proactive about making sure everything is set up correctly. Use the [SiaCentral Host Troubleshooter](https://troubleshoot.siacentral.com) to check your host configuration and make sure it can form contracts. Change your host address if necessary to your host's actual public IP or DDNS address.
+Once you are set up, you can be proactive about making sure everything is set up correctly. Use the [Sia Central Host Troubleshooter](https://troubleshoot.siacentral.com) to check your host configuration and make sure it can form contracts. Change your host address if necessary to your host's actual public IP or DDNS address.
 
-If SiaCentral discovers issues when connecting to your host, wait an hour or two and try again - the announcement can take a little while to reach the Sia network.
+If Sia Central discovers issues when connecting to your host, wait an hour or two and try again - the announcement can take a little while to reach the Sia network.
 
 ## Set Up Host Metadata Backups \(Recommended\)
 
@@ -242,7 +222,7 @@ Sia keeps data pertaining to your hosting operation in two places:
 
 The first type of data, uploaded renter data, isn't very practical to back up unless you have additional hard drives lying around with a capacity equivalent to what you're selling on Sia. In that case, you'd be better off setting up a mirrored volume with multiple disks to prevent data loss if a drive fails.
 
-The second type of data, internal host metadata, is equally important. Sia installations have been known to corrupt this data if a host does not shut down gracefully \(i.e. a power outage or crash\), and in rare cases, Sia itself can corrupt this data at no fault of the user. Without this metadata, your host cannot operate, and it is equivalent to losing all of your renter's data on all storage folders. This would result in the loss of all your risked collateral for your host. For this reason, you can see why it might be important to back the metadata up regularly. Even if you restore a copy of the metadata which is a few days old, you only stand to lose collateral for data uploaded to your host over those few days.
+The second type of data, internal host metadata, is equally important. In rare instances, users have experienced data corruption if the host was not shut down gracefully \(i.e., a power outage or crash\). Without this metadata, your host cannot operate. It is equivalent to losing all of your renter's data on all storage folders, resulting in losing your risked collateral. For this reason, it is essential to store the host's metadata redundantly \(i.e., RAID1\) or regularly back it up. Even if you restore a copy of the metadata which is a few days old, you only stand to lose collateral for data uploaded to your host over those few days.
 
 Host metadata is located in the `host` folder in Sia's internal data files, which can be found in the Sia-UI by clicking the **About \(i\) icon &gt; Open Data Folder** or in these locations:
 
@@ -256,72 +236,7 @@ In addition, it is recommended to backup your `siamux` folder located in the sam
 
 ## Advanced Monitoring \(Optional\)
 
-A detailed itemization of earned coins and expected revenues, together with more parameters and statistics, can be checked with the command `siac host -v` in the Terminal. This is an example of the report:
-
-```go
-General Info:
-        Connectability Status: Host appears to be working.
-        Version:               1.5.7
-
-Host Internal Settings:
-        acceptingcontracts:   Yes
-        maxdownloadbatchsize: 17.83 MB
-        maxduration:          26 Weeks
-        maxrevisebatchsize:   17.83 MB
-        netaddress:           xxx.xxx.xxx.xxx:9982 (automatically determined)
-        windowsize:           24 Hours
-
-        collateral:       100 SC / TB / Month
-        collateralbudget: 100 KS
-        maxcollateral:    5 KS Per Contract
-
-        minbaserpcprice:           100 nS
-        mincontractprice:          50 mS
-        mindownloadbandwidthprice: 25 SC / TB
-        minsectoraccessprice:      2 uS
-        minstorageprice:           50 SC / TB / Month
-        minuploadbandwidthprice:   1 SC / TB
-
-        ephemeralaccountexpiry:     604800s
-        maxephemeralaccountbalance: 1 SC
-        maxephemeralaccountrisk:    5 SC
-
-        registrysize:       0  B
-        customregistrypath:
-
-Host Financials:
-        Contract Count:               0
-        Transaction Fee Compensation: 0 H
-        Potential Fee Compensation:   0 H
-        Transaction Fee Expenses:     0 H
-
-        Storage Revenue:           0 H
-        Potential Storage Revenue: 0 H
-
-        Locked Collateral: 0 H
-        Risked Collateral: 0 H
-        Lost Collateral:   0 H
-
-        Download Revenue:           0 H
-        Potential Download Revenue: 0 H
-        Upload Revenue:             0 H
-        Potential Upload Revenue:   0 H
-
-RPC Stats:
-        Error Calls:        0
-        Unrecognized Calls: 0
-        Download Calls:     0
-        Renew Calls:        0
-        Revise Calls:       0
-        Settings Calls:     0
-        FormContract Calls: 0
-
-Storage Folders:
-    Used    Capacity      % Used    Path
-    0  B    536.871 GB    0.00      E:\Sia
-```
-
-### More about the Units
+A detailed itemization of earned coins and expected revenues, together with more parameters and statistics, can be checked with the command `siac host -v` in the Terminal.
 
 In the output of the command `siac host -v` you can see some strange units together with those you know already. Below is some explanation. You can also use these units when changing your host’s settings in the Terminal.
 
