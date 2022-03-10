@@ -18,7 +18,7 @@ Not meeting these requirements can have a range of effects: you may be unable to
 
 ## Preparing Your Storage Drive\(s\) \(Windows Only, Optional\)
 
-NTFS file system of Windows does not support sparse files, which causes downtime when adding large \(several TB\) storage folders. You can format your storage drive using ReFS before adding it to Sia to avoid this downtime.
+The NTFS file system of Windows does not support sparse files, which causes downtime when adding large \(several TB\) storage folders. You can format your storage drive using ReFS before adding it to Sia to avoid this downtime.
 
 Unfortunately, ReFS is not available on all Windows releases. It is currently available on Windows 10 Server, Windows 10 Enterprise, and Windows 10 Pro for Workstations. Of these, Windows 10 Pro for Workstations is the most available solution: it’s quite easy to upgrade from Windows 10 Pro.
 
@@ -44,7 +44,7 @@ However, it’s not as easy as it sounds. You can stop the Windows Update servic
 
 ## Forwarding Ports \(Required\)
 
-User's number one issue when setting up a new host is port forwarding. To host, you should forward TCP ports `:9981` through `:9984`. You can see if your host has forwarded its port from this website: [http://canyouseeme.org/](http://canyouseeme.org/)
+Users number one issue when setting up a new host is port forwarding. To host, you should forward TCP ports `:9981` through `:9984`. You can see if your host has forwarded its port from this website: [http://canyouseeme.org/](http://canyouseeme.org/)
 
 {% hint style="warning" %}
 Do not forward port 9980, as this represents a security threat. You'll need to access your router's manual to learn how to set up port forwarding on your device.
