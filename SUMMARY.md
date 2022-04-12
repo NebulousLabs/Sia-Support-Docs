@@ -54,7 +54,9 @@
 * [About hosting on Sia](hosting/about-hosting-on-sia.md)
 * [Hosting Guides](hosting/hosting-guides/README.md)
   * [SiaUI](hosting/hosting-guides/siaui.md)
+  * [Linux CLI](hosting/hosting-guides/linux-cli.md)
   * [Raspberry Pi](hosting/hosting-guides/raspberry-pi.md)
+  * [Advanced Monitoring](hosting/hosting-guides/advanced-monitoring.md)
 * [How to host on Sia](hosting/how-to-host-on-sia.md)
 * [Hosting FAQ](hosting/hosting-faq.md)
 
