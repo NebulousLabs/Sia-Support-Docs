@@ -1,16 +1,28 @@
-# How to host on Sia
+# SiaUI
 
-This section takes you through how to actually set up a Sia host.
+This section takes you setting up a host using the **SiaUI**.
 
 ## The process
 
-Open Sia and click on the **Host** tab on the left. This is where you can configure your host settings. The first thing you do is tell Sia where your storage folder is. This is a location on the storage device you want to use for hosting.
+### Step 1: Download and Install the SiaUI
 
-![](../.gitbook/assets/hosting-1.png)
+Download and install the **[SiaUI](https://sia.tech/get-started)** for your system.
+
+### Step 2: Create your wallet
+
+Once installed create a new wallet and allow it to sync to the blockchain. If you already have a existing wallet that you would like to use, you may do so by typing in your seed phrase.
+
+***Note:** On a SSD syncing to the blockchain can take a day or more. Therefore it is not recommended to install Sia on a HDD as syncing will take much longer.*
+
+### Step 3: Configure your host
+
+Once you have the SiaUI installed, open Sia and click on the **Host** tab on the left. This is where you can configure your host settings. The first thing you do is tell Sia where your storage folder is. This is a location on the storage device you want to use for hosting.
+
+![](../../.gitbook/assets/hosting-1.png)
 
 Click **Add a folder**, then select a location. You can choose a drive \(like D:\\) to use an entire empty drive or partition, or you can pick a specific folder on a drive. Sia will create one large file in the location you select that allocates the amount of storage you choose.
 
-![](../.gitbook/assets/hosting-2.png)
+![](../../.gitbook/assets/hosting-2.png)
 
 Tell Sia how much space you want to allocate to hosting, in megabytes. Entering a value lower than 32 GB will provide a warning since as a host you're graded on having a lot of available storage. Set at least 4 TB if you can. You can type in a value if you want to set a value higher than what the slider allows.
 
@@ -26,7 +38,7 @@ Here are some quick values you can use to get started:
 
 ## Host Settings
 
-![](../.gitbook/assets/hosting-3.png)
+![](../../.gitbook/assets/hosting-3.png)
 
 {% tabs %}
 {% tab title="Max Duration" %}
@@ -66,7 +78,7 @@ This can only be changed in siac, or using the Terminal in Sia-UI with the comma
 
 ## Announce your host
 
-![](../.gitbook/assets/hosting-4.png)
+![](../../.gitbook/assets/hosting-4.png)
 
 Click the slider at the top of the Host window next to the Announce Host button so it appears green. This will turn on your host for accepting new storage contracts from renters. Then, unless you used DDNS in a previous step, click **Announce Host** to the Sia network so that renters can find you.
 
@@ -142,74 +154,7 @@ Host metadata is located in the `/host` folder in Sia's internal data files, whi
 
 * **Linux:** `$HOME/.config/Sia-UI/sia/`
 * **Mac:** `$HOME/Library/Application Support/Sia-UI/sia/`
-* **Windows:** `%APPDATA%\Sia-UI\sia\`
+* **Windows:** `%APPDATA%\roaming\Sia-UI\sia\`
 
 It is recommended to set up a backup schedule to regularly back up your `/host` folder so that you do not risk losing your hosting operation entirely in the event that your computer or Sia crashes or the data is randomly corrupted. You can do this by writing a simple backup script, by using built-in backup tools in [Windows](https://support.microsoft.com/en-us/help/17127/windows-back-up-restore) and [macOS](https://support.apple.com/mac-backup), or by using third-party tools in [Linux](https://www.tecmint.com/linux-system-backup-tools/).
-
-## Advanced Monitoring \(Optional\)
-
-A detailed itemization of earned coins and expected revenues, together with more parameters and statistics, can be checked with the command `siac host -v` in the Terminal. This is an example of the report:
-
-```go
-General Info:
-    Connectability Status: Host appears to be working.
-    Version:               1.5.3
-
-Host Internal Settings:
-    acceptingcontracts:   Yes
-    maxdownloadbatchsize: 17.83 MB
-    maxduration:          26 Weeks
-    maxrevisebatchsize:   17.83 MB
-    netaddress:           xx.xxx.xxx.xx:9982 (automatically determined)
-    windowsize:           24 Hours
-
-    collateral:       150 SC / TB / Month
-    collateralbudget: 100 KS
-    maxcollateral:    5 KS Per Contract
-
-    minbaserpcprice:           100 nS
-    mincontractprice:          50 mS
-    mindownloadbandwidthprice: 25 SC / TB
-    minsectoraccessprice:      2 uS
-    minstorageprice:           50 SC / TB / Month
-    minuploadbandwidthprice:   1 SC / TB
-
-    ephemeralaccountexpiry:     604800s
-    maxephemeralaccountbalance: 1 SC
-    maxephemeralaccountrisk:    5 SC
-
-    registrysize:       0  B
-    customregistrypath: 
-
-Host Financials:
-    Contract Count:               1199
-    Transaction Fee Compensation: 426 SC
-    Potential Fee Compensation:   3.543 KS
-    Transaction Fee Expenses:     0 H
-
-    Storage Revenue:           193.2 SC
-    Potential Storage Revenue: 441.9 SC
-
-    Locked Collateral: 81.59 KS
-    Risked Collateral: 1.385 KS
-    Lost Collateral:   0 H
-
-    Download Revenue:           23.58 mS
-    Potential Download Revenue: 3.186 SC
-    Upload Revenue:             1.708 SC
-    Potential Upload Revenue:   12.04 SC
-
-RPC Stats:
-    Error Calls:        6125
-    Unrecognized Calls: 2222
-    Download Calls:     13097
-    Renew Calls:        1791
-    Revise Calls:       99676
-    Settings Calls:     296858
-    FormContract Calls: 1503
-
-Storage Folders:
-    Used    Capacity      % Used    Path
-    72.592 GB    107.374 GB    67.71      /Users/Sia/Storage
-```
 

@@ -12,6 +12,19 @@ You also earn Siacoins, the cryptocurrency that powers the Sia network. Siacoins
 
 Hosts are a critical part of the ecosystem. You are contributing to the decentralized network that is the heart of Sia. Hosting is also more technical a process than renting, and while anyone can fairly easily set it up, there's a lot you'll want to know to maximize your setup.
 
+## Things you'll need
+
+Not meeting these requirements can have a range of effects: you may be unable to host, you may not receive any storage contracts from renters, or you may even risk losing your own Siacoins as a penalty. Hosting is a serious commitment. If you're going to do it, do it right.
+
+* **A reliable and stable setup:** You need a computer, internet connection, and electricity that you can trust. Hosts are required to be online nearly 100% of the time or face financial penalties.
+* **Sia Prerequisites:** Make sure your computer meets the Sia requirements
+  * CPU: Sia does not require special CPU considerations
+  * RAM: 8 GB recommended
+  * SSD: 40 GB recommended \(keep an eye on your consensus size!\)
+  * Create a Sia wallet
+  * [Get Siacoins](../get-started-with-sia/how-to-buy-siacoins.md)
+* **Storage space:** Spare hard drive space to rent out, ideally greater than 4 TB.
+
 ## Pricing
 
 As a host, you set your own prices. There's a lot of specific price points you can control:
@@ -142,3 +155,18 @@ These benchmarks are different from the core Sia protocol, but are still useful,
 
 Once you've started hosting, you'll probably want to keep an eye on your host score and see how you might be able to improve your host ranking.
 
+## Units and Conversions
+
+* **Currency units:**
+  * 1 MS = 1,000,000 SC
+  * 1 KS = 1,000 SC
+  * 1 mS = 0.001 SC
+  * 1 uS = 0.000,001
+  * 1 nS = 0.000,000,001 SC
+  * 1 H = 1e-24 SC *(The smallest currency unit of Siacoin)*
+
+* **Duration Units:**
+  * 1 block (b) = ~10 minutes
+  * 1 hour (h) = ~6 blocks
+  * 1 day (d) = 144 blocks
+  * 1 week (w) = 1008 blocks
