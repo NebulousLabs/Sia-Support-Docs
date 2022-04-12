@@ -52,6 +52,9 @@
 ## Hosting
 
 * [About hosting on Sia](hosting/about-hosting-on-sia.md)
+* [Hosting Guides](hosting/hosting-guides/README.md)
+  * [SiaUI](hosting/hosting-guides/siaui.md)
+  * [Raspberry Pi](hosting/hosting-guides/raspberry-pi.md)
 * [How to host on Sia](hosting/how-to-host-on-sia.md)
 * [Hosting FAQ](hosting/hosting-faq.md)
 
@@ -83,4 +86,3 @@
 * [Using the wrong chain after a fork](forks/using-the-wrong-chain-after-a-fork.md)
 * [Navigating the 2021 Sia hardfork](forks/navigating-the-2021-sia-hardfork.md)
 * [So, you didn't update in time for the fork](forks/so-you-didnt-update-in-time.md)
-
