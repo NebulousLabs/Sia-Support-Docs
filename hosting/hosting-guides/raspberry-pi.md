@@ -293,7 +293,7 @@ siac host config -h
 
 ### Step 14: Announce your host!
 
-Now all that is left, is for you to annouce your host to the network and you're done!
+Now all that is left, is for you to announce your host to the network and you're done!
 
 ```
 siac host announce
