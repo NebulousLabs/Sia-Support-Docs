@@ -1,5 +1,5 @@
 ---
-description: This section takes you setting up a host on a Raspbery Pi 4.
+description: This section takes you through setting up a host on a Raspbery Pi 4.
 ---
 
 # Raspberry Pi
@@ -50,14 +50,16 @@ Download and extract the latest Raspberry Pi binaries from [https://sia.tech/get
 
 ```
 cd ~
-wget -q https://sia.tech/releases/Sia-v1.5.7-linux-amd64.zip
-unzip Sia-v1.5.7-linux-amd64.zip
+wget -q https://sia.tech/releases/Sia-v1.5.7-linux-arm64.zip
+unzip Sia-v1.5.7-linux-arm64.zip
 ```
+
+
 
 Next move the extracted Sia binaries to _`/usr/local/bin/`_.
 
 ```
-sudo mv -t /usr/local/bin Sia-v1.5.7-linux-amd64/siad Sia-v1.5.7-linux-amd64/siac
+sudo mv -t /usr/local/bin Sia-v1.5.7-linux-arm64/siad Sia-v1.5.7-linux-arm64/siac
 ```
 
 
@@ -65,7 +67,7 @@ sudo mv -t /usr/local/bin Sia-v1.5.7-linux-amd64/siad Sia-v1.5.7-linux-amd64/sia
 ### Step 6: Initialize and setup a new wallet
 
 ```
-siac wallet init
+siac wallet init -p
 ```
 
 {% hint style="info" %}

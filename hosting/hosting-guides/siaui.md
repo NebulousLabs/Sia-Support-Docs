@@ -1,6 +1,8 @@
-# SiaUI
+---
+description: This section takes you through setting up a host using the SiaUI.
+---
 
-This section takes you setting up a host using the **SiaUI**.
+# SiaUI
 
 ## The process
 
