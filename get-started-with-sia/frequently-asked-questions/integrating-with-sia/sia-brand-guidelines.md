@@ -1,6 +1,6 @@
 # Brand guidelines for Sia in your project or site
 
-Community and third-party \(non-core\) projects are an essential part of the Sia ecosystem. They expand the use-cases for Sia, and improve the network with solutions we aren’t actively working on.
+Community and third-party (non-core) projects are an essential part of the Sia ecosystem. They expand the use-cases for Sia, and improve the network with solutions we aren’t actively working on.
 
 We want users to be able to distinguish between core and non-core projects for a number of reasons:
 
@@ -16,7 +16,7 @@ In an effort to promote these goals, please use the following as guidelines when
 
 ## `built with Sia`
 
-![](../.gitbook/assets/brand-1.png)
+![](../../../.gitbook/assets/brand-1.png)
 
 If you are building a project featuring Sia, use the `built with Sia` logo to showcase your integration. You can drop this in the app, website, or anywhere else that makes sense.
 
@@ -37,13 +37,13 @@ You can also create a wonderfully custom name that represents you or your work. 
 
 We’re a little more strict on this one. We own the trademark in the US for both the Sia logo and wordmark:
 
-![](../.gitbook/assets/brand-2.png)
+![](../../../.gitbook/assets/brand-2.png)
 
 We’d prefer that your project not use the Sia logo or wordmark directly in any capacity, but you can style on it as long as a normal user wouldn’t confuse it for the real thing.
 
 A good example of this is SiaStats:
 
-![](../.gitbook/assets/brand-3.png)
+![](../../../.gitbook/assets/brand-3.png)
 
 The logo is similar, but is easily differentiated from the Sia logo by both the color and the design using a line graph in the center. Plus, it perfectly represents what the site is about - Sia and stats!
 
@@ -51,11 +51,10 @@ The logo is similar, but is easily differentiated from the Sia logo by both the 
 
 Sia uses a number of colors.
 
-![](../.gitbook/assets/brand-4.png)
+![](../../../.gitbook/assets/brand-4.png)
 
 If you use the exact Sia logo or wordmark in any way, like to represent the fact that you integrate with Sia on your site, the image should either use our green or one of these grays. In other words, don't use our exact logo or wordmark and change the color to match your color scheme.
 
 When designing your own logo, feel free to draw from our color palette or create your own.
 
 We can't wait to see what you build! Be sure you let us know in [Discord](https://discord.gg/sia).
-

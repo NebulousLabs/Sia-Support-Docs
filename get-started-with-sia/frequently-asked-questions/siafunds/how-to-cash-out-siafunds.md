@@ -14,11 +14,11 @@ Sia automatically keeps track of how many Siacoins your Siafunds have accrued, a
 
 In any tab of Sia-UI, click on the Terminal button at the top. It's the third button, and looks like a right-facing arrow in a box: `>`
 
-![](../.gitbook/assets/siafunds-cashout-1.png)
+![](../../../.gitbook/assets/siafunds-cashout-1.png)
 
 Type a single word command into the interface that pops up: `wallet`
 
-![](../.gitbook/assets/siafunds-cashout-2.png)
+![](../../../.gitbook/assets/siafunds-cashout-2.png)
 
 You'll be presented with a recap of your wallet: how many Siacoins you have, how many Siafunds you have, and how many Siacoins your Siafunds have earned, listed as `Siafund Claims`.
 
@@ -28,7 +28,7 @@ Go to the Wallet tab of Sia, and click **Receive.**
 
 Click **Generate New Address** to create a new Sia address.
 
-![](../.gitbook/assets/address-2%20%282%29%20%282%29%20%281%29.png)
+![](<../../../.gitbook/assets/address-2 (2) (2) (1).png>)
 
 Copy and paste this manually, or use the `Copy` button to the right to make sure you get the full address without any extra spaces.
 
@@ -38,7 +38,7 @@ Now switch over to the Send section of your wallet.
 
 Enter the wallet address and the amount of Siafunds you want to send. Make sure that you've entered a Sia wallet address you control, and that you've entered it correctly.
 
-![](../.gitbook/assets/siafunds-cashout-4.png)
+![](../../../.gitbook/assets/siafunds-cashout-4.png)
 
 {% hint style="danger" %}
 Siafunds sent to mistyped addresses cannot be retrieved.
@@ -52,13 +52,13 @@ Next, you need to verify everything. You'll have a chance to double-check the cu
 
 Click **Back** to change something. If it's all good, click **Broadcast.**
 
-![](../.gitbook/assets/siafunds-cashout-5.png)
+![](../../../.gitbook/assets/siafunds-cashout-5.png)
 
 ## Check the status
 
 You'll immediately get a confirmation.
 
-![](../.gitbook/assets/siafunds-cashout-6.png)
+![](../../../.gitbook/assets/siafunds-cashout-6.png)
 
 And you'll see a small tag appear under your balance to let you know the transaction is on its way but hasn't yet appeared in a block.
 
@@ -69,4 +69,3 @@ If you're using siac, the process is the same. Just initiate a transaction and s
 `siac wallet send siafunds <amount> <destination address (must be your own)>`
 
 to take the accrued Siacoins and put them in your wallet. The Siafunds will still be on your wallet because you sent them to your own address.
-

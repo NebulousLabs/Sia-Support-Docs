@@ -22,7 +22,7 @@ Not meeting these requirements can have a range of effects: you may be unable to
   * RAM: 8 GB recommended
   * SSD: 40 GB recommended (keep an eye on your consensus size!)
   * Create a Sia wallet
-  * [Get Siacoins](../get-started-with-sia/how-to-buy-siacoins.md)
+  * [Get Siacoins](../get-started-with-sia/frequently-asked-questions/siacoin/how-to-buy-siacoins.md)
 * **Storage space:** Spare hard drive space to rent out, ideally greater than 4 TB.
 
 ## Pricing
@@ -98,7 +98,7 @@ This is how many Siacoins you're willing to lose if you don't fulfill the rental
 You should normally set your collateral to around **2-3x your base storage price** as a starting point in order to maximize your host score in this area. For example, if you've priced your storage at 50 SC/TB, you should set your collateral at 100-150 SC/TB.
 
 * If you set your collateral **too low**, your host score will be reduced, because renters will have no reason to trust you as a host if you have little or nothing to lose by going offline.
-* If you set your collateral **too high**, this can also decrease your host score. Renters pay a fee based on a percentage of your collateral that goes towards [Siafunds](../siafunds/what-are-siafunds.md) - if your collateral is set very high, the fee a renter pays as a result will be very high, which can decrease your host score.
+* If you set your collateral **too high**, this can also decrease your host score. Renters pay a fee based on a percentage of your collateral that goes towards [Siafunds](../get-started-with-sia/frequently-asked-questions/siafunds/what-are-siafunds.md) - if your collateral is set very high, the fee a renter pays as a result will be very high, which can decrease your host score.
 
 **Monitoring Your Collateral**
 

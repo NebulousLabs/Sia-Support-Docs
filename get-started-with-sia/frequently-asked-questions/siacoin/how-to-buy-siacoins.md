@@ -1,4 +1,4 @@
-# How to buy Siacoins
+# How to buy Siacoin
 
 Whether you want to upload files to the decentralized cloud or lend your extra storage space to the network, you need Siacoins to use Sia. Siacoins can be sent to you once you make a Sia address, or you can mine them. Otherwise, you’ll need to buy them.
 
@@ -33,10 +33,10 @@ Transak offers incredibly easy crypto purchasing using just your debit or credit
 
 Visit [transak.com](https://transak.com), tell them how much of your local currency you want to spend, and they'll tell you how much SC you can get.
 
-![](../.gitbook/assets/transak-widget.png)
+![](../../../.gitbook/assets/transak-widget.png)
 
 Click **Buy Now**.
 
-![](../.gitbook/assets/transak-widget-2.png)
+![](../../../.gitbook/assets/transak-widget-2.png)
 
-Then enter in your SC address [that you made](../your-sia-wallet/wallet-setup/how-to-make-a-sia-address.md), and click **Buy Now** again to proceed through the transaction process.
+Then enter in your SC address [that you made](../../../your-sia-wallet/wallet-setup/how-to-make-a-sia-address.md), and click **Buy Now** again to proceed through the transaction process.

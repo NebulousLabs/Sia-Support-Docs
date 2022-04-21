@@ -16,7 +16,7 @@ At the end of a contract, the amount reserved is then dispersed to all Siafund h
 
 Siafunds are stored in your wallet, right next to your Siacoins.
 
-![](../.gitbook/assets/siafunds-close.png)
+![](../../../.gitbook/assets/siafunds-close.png)
 
 They are also sent to and received at normal Siacoin addresses, and can be restored with your Siacoin balance as long as you have your Sia seed.
 
@@ -35,4 +35,3 @@ Siafunds were designated as securities by the SEC back in 2018. Utility tokens p
 The maximum number of Siafunds that will ever be issued is 10,000, all of which were generated upon the launch of the Sia software in 2015. Because the number of Siafunds issued is fixed, as the number, size, and value of the contracts on the Sia network increase, the amount of revenue per Siafund increases proportionally.
 
 Nebulous, Inc. originally owned all 10,000, but over the years have conducted multiple Siafund sales to fund development. As of April 2019, Nebulous holds about 8,600, and the rest have been issues to third parties.
-

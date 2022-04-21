@@ -1,0 +1,5 @@
+# My Sia host is becoming unresponsive for several minutes to several hours at a time.
+
+Your host can become unresponsive if you add or change storage directories - especially on Windows, as Windows preallocates files so adding a drive with several terabytes of space will take as long as it takes to write to the entire drive, which is usually about 2-3 hours per TB. Your host can also become unresponsive during initial startup if it has to process or rebuild certain internal data files, or if it is syncing because it hasn't been online for a while or because the consensus data was removed or bootstrapped.
+
+In Sia v1.4.x and v1.5.0, there is a known issue regarding hosts becoming unresponsive, causing [SiaStats Host Monitor](https://siastats.info/hosts) benchmark failures and other issues. The SiaStats benchmark failures usually mention an I/O timeout, and several failures may occur in a row. There's not much you can do about this issue currently, but the Sia team is aware of the issue and has attempted a fix for v1.5.1. As this version has just been released in November 2020, it may take a few months to see if the resolution is effective.

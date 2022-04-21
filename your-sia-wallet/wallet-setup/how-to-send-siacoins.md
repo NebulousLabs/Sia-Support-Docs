@@ -46,6 +46,6 @@ It might take a minute or two for the transaction to pop up in the Transactions 
 
 ## Did you know?
 
-You can also send Siafunds by using the dropdown next to Siacoin. This option won't be selectable unless you also have some in your wallet. [Learn about Siafunds.](../../siafunds/what-are-siafunds.md)
+You can also send Siafunds by using the dropdown next to Siacoin. This option won't be selectable unless you also have some in your wallet. [Learn about Siafunds.](../../get-started-with-sia/frequently-asked-questions/siafunds/what-are-siafunds.md)
 
 ![](../../.gitbook/assets/send-7.png)

@@ -62,9 +62,9 @@ Siacoin holders should [upgrade to v1.5.4](https://sia.tech/get-started) by Febr
 If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it. **You never lose your coins. Once you update to the new chain, your coins will be available to you again.**
 {% endhint %}
 
-[Learn how to download and install Sia-UI](../get-started-with-sia/frequently-asked-questions/sia-ui-faqs/how-to-download-and-install-sia-ui.md)
+[Learn how to download and install Sia-UI](../sia-ui-faqs/how-to-download-and-install-sia-ui.md)
 
-[Learn how to create a new wallet in Sia-UI](../get-started-with-sia/frequently-asked-questions/sia-ui-faqs/how-to-make-a-new-wallet-in-sia-ui.md)
+[Learn how to create a new wallet in Sia-UI](../sia-ui-faqs/how-to-make-a-new-wallet-in-sia-ui.md)
 
 [Download siac from our site (for advanced users)](http://sia.tech/get-started)
 
@@ -100,7 +100,7 @@ The second column will have three values:
 
 ## For Ledger Nano S users
 
-You'll need to update your app, but you should do it after the hardfork activates. Updating before the fork will your signatures won't be valid. Use [Ledger Live](../sia-integrations/using-the-sia-ledger-nano-s-app.md#install\_the\_sia\_ledger\_nano\_s\_app) in Developer mode to find and update the Siacoin app.
+You'll need to update your app, but you should do it after the hardfork activates. Updating before the fork will your signatures won't be valid. Use [Ledger Live](../../../your-sia-wallet/wallet-setup/for-advanced-users/using-the-sia-ledger-nano-s-app.md#install\_the\_sia\_ledger\_nano\_s\_app) in Developer mode to find and update the Siacoin app.
 
 ## For SiaStream users
 
