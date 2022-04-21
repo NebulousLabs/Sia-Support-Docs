@@ -5,7 +5,7 @@
 * [Welcome to Sia!](README.md)
 * [Frequently Asked Questions](get-started-with-sia/frequently-asked-questions/README.md)
   * [Siacoin](get-started-with-sia/frequently-asked-questions/siacoin/README.md)
-    * [What are Siacoins?](get-started-with-sia/frequently-asked-questions/siacoin/what-are-siacoins.md)
+    * [What is Siacoin?](get-started-with-sia/frequently-asked-questions/siacoin/what-are-siacoins.md)
     * [How to buy Siacoin](get-started-with-sia/frequently-asked-questions/siacoin/how-to-buy-siacoins.md)
     * [What is the Siacoin total supply?](get-started-with-sia/frequently-asked-questions/siacoin/siacoin-total-supply.md)
   * [Siafunds](get-started-with-sia/frequently-asked-questions/siafunds/README.md)
