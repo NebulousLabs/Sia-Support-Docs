@@ -149,7 +149,7 @@ _In this example we will be using the 5.5TiB storage drive listed as **`/dev/sda
 {% endhint %}
 
 ```
-sudo nano /etc/systemd/system/sia-auto-mount.service
+sudo nano /usr/local/bin/sia-auto-mount.sh
 ```
 
 Once the text editor loads, copy and paste the following.
