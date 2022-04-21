@@ -52,13 +52,19 @@
 ## Hosting
 
 * [About hosting on Sia](hosting/about-hosting-on-sia.md)
-* [Hosting Guides](hosting/hosting-guides/README.md)
-  * [SiaUI](hosting/hosting-guides/siaui.md)
-  * [Linux CLI](hosting/hosting-guides/linux-cli.md)
-  * [Raspberry Pi](hosting/hosting-guides/raspberry-pi.md)
-  * [Advanced Monitoring](hosting/hosting-guides/advanced-monitoring.md)
+* [Host Setup](hosting/host-setup/README.md)
+  * [SiaUI](hosting/host-setup/siaui.md)
+  * [Raspberry Pi](hosting/host-setup/raspberry-pi.md)
+  * [Advanced Monitoring](hosting/host-setup/advanced-monitoring.md)
+  * [Linux CLI](hosting/host-setup/linux-cli.md)
 * [How to host on Sia](hosting/how-to-host-on-sia.md)
 * [Hosting FAQ](hosting/hosting-faq.md)
+* [Page 1](hosting/page-1/README.md)
+  * [SiaUI](hosting/page-1/siaui.md)
+  * [Linux CLI](hosting/page-1/linux-cli.md)
+  * [Raspberry Pi](hosting/page-1/raspberry-pi.md)
+  * [Port Forwarding](hosting/page-1/port-forwarding.md)
+  * [Advanced Monitoring](hosting/page-1/advanced-monitoring.md)
 
 ## Mining
 
