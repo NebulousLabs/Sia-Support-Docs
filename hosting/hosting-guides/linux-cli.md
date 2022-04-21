@@ -6,7 +6,7 @@ description: This section takes you through setting up a host using Linux CLI
 
 ## The process
 
-### Step 1: Download and install the latest Sia binaries
+### Step 1: Install Sia binaries
 
 Download and extract the latest Sia Daemon Linux binaries from [https://sia.tech/get-started](https://sia.tech/get-started).
 
@@ -24,9 +24,52 @@ Next move the extracted Sia binaries to _`/usr/local/bin/`_.
 sudo mv -t /usr/local/bin Sia-v1.5.7-linux-amd64/siad Sia-v1.5.7-linux-amd64/siac
 ```
 
+###
+
+### Step 11: Automatic boot
+
+To begin, create a systemd script to start up your sia host and login automatically.
+
+```
+sudo nano /etc/systemd/system/siad.service
+```
+
+Once the text editor loads, copy and paste the following.
+
+```
+[Unit]
+Description=siad
+After=network.target sia-storage-mount.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/siad -M gctwh -d /home/ubuntu/siad
+ExecStop=/usr/local/bin/siac stop
+Restart=always
+RestartSec=15
+User=ubuntu
+Environment=”SIA_WALLET_PASSWORD=walletseedphrase”
+LimitNOFILE=900000
+
+[Install]
+WantedBy=multi-user.target
+Alias=siad.service
+```
+
+Save the file to disk using _**`ctrl+o`**_
+
+Exit the text editor using _**`ctrl+x`**_
 
 
-### Step 2: Initialize and setup a new wallet
+
+To finish, start and enable the service you just created.
+
+```
+$ sudo systemctl start siad
+$ sudo systemctl enable siad
+```
+
+### &#x20;Step 2: Create a wallet
 
 ```
 siac wallet init -p 
@@ -38,27 +81,43 @@ _Write down your recovery keys and keep them somewhere safe. If you loose these 
 
 
 
-### Step 3: Unlock your wallet
+Once created you'll then need to unlock the wallet using the seed phrase you wrote down.
+
+
 
 ```
 siac wallet unlock
 ```
 
-{% hint style="info" %}
-_You will know this is working by checking your **`siad`** shell. The process should take about 20-30 minutes to complete._
-{% endhint %}
 
 
+### Step 4: Fund your wallet
 
-### Step 4: Generate wallet and transfer funds
+Generate a new wallet
 
 ```
 siac wallet address
 ```
 
+Now that you have an address, you can send Siacoin to fund your wallet.
+
+{% hint style="info" %}
+_You can fund your wallet before your host has finished syncing to the blockchain. But you will not be able to see your funds until you have fully synced._
+{% endhint %}
+
 {% hint style="info" %}
 _It is recommended to have about 1000 Siacoin per TB._
 {% endhint %}
+
+
+
+### Step 5: Bootstrapping
+
+Before you can begin hosting, you will need to wait for your host to be fully synced with the blockchain. You can use _**`siac`**_ to monitor the progress.
+
+```
+siac consensus
+```
 
 
 
