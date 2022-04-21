@@ -42,6 +42,10 @@ While there is a distinct development and operations team, dozens of individuals
 
 ## **Renting on Sia**
 
+{% hint style="info" %}
+_Looking to rent storage on Sia?_ [_Learn here_](renting/renter-setup/)_._
+{% endhint %}
+
 When you upload files to Sia, you become a **renter**. You upload files to other users who have made their space available, called **hosts**. We use the term renter because Sia creates contracts with other hosts:
 
 * to store a certain amount of data
@@ -49,6 +53,10 @@ When you upload files to Sia, you become a **renter**. You upload files to other
 * for a certain amount of money
 
 ## Hosting on Sia
+
+{% hint style="info" %}
+_Looking to start hosting on Sia?_ [_Learn here_](hosting/host-setup/)_._
+{% endhint %}
 
 **Hosting** means you are contributing your excess storage space to Sia. You're helping to keep data where it belongs – safely in the hands of those who uploaded it, the **renters**.
 
