@@ -12,13 +12,7 @@ An environment variable is just a piece of information that is specific to your 
 
 Environment variables are accessible by any program on your computer. If you still use your Sia seed to unlock your wallet instead of a custom password, you should change this before entering your Sia seed into the environment variable. Someone with access to your seed can easily steal your Siacoins and access your files. Learn how to set a custom password.
 
-## Set your computer to automatically reboot after a power failure
-
-Everything we do here won't matter much if you physically need to reboot your machine after it loses power. At that point, you could just launch Sia again on your own. This setting will allow your computer to reboot automatically anytime its power is interrupted.
-
-[Windows and Linux](https://www.technewsworld.com/story/78930.html) \(done through your BIOS, complete with instructions for connecting to an APC for smooth power-downs and startups\)
-
-[Mac](https://www.wikihow.com/Make-Your-Mac-Restart-Automatically-After-a-Power-Failure) \(only applicable to certain models\)
+##
 
 ## Set your user to automatically login on startup
 
@@ -28,7 +22,7 @@ Your computer needs to automatically log in to your user after it reboots. Follo
 
 [Mac](https://support.apple.com/en-us/HT201476)
 
-[Linux Ubuntu](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en), [other distros](http://www.linfo.org/automatic_login.html)
+[Linux Ubuntu](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en), [other distros](http://www.linfo.org/automatic\_login.html)
 
 ## Set Sia as a startup item
 
@@ -36,9 +30,8 @@ Now that your computer will automatically login after startup, you need to make 
 
 [Windows](https://support.microsoft.com/en-us/help/4026268/windows-10-change-startup-apps)
 
-[Mac](https://support.apple.com/kb/PH25590?locale=en_US)
+[Mac](https://support.apple.com/kb/PH25590?locale=en\_US)
 
 [Linux Ubuntu](https://www.howtoforge.com/tutorial/how-to-use-startup-applications-on-ubuntu/), [other distros](https://www.simplified.guide/linux/automatically-run-program-on-startup)
 
 Once all these steps are set, reboot your computer and verify that your account logs in, Sia starts, and your wallet unlocks automatically.
-

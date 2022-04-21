@@ -92,25 +92,6 @@ Read on for some additional important things to take care of to get the most out
 
 ## Port Forwarding (Required)
 
-The number one reason that users have issues getting their host running is port forwarding. By default, the host is on port `:9982`, but you should forward all ports from `:9981` to `:9984`. You can see if your host has forwarded its port from this website: [http://canyouseeme.org/](http://canyouseeme.org)
-
-{% hint style="warning" %}
-Be sure to not forward port 9980, as this can represent a security threat. You'll need to access your router's manual to learn how to set up port forwarding on your device.
-{% endhint %}
-
-### What each port does
-
-* :9981 (consensus p2p network)
-* :9982 (renter-host-protocol-v2)
-* :9983 (rhp-v3)
-* :9984 (rhp-v3-websocket)
-
-If your port is not forwarded, it's probably because your router does not support UPnP. Unfortunately, that means you need to go into the configuration yourself and do it manually. There are some great guides to help you here: [https://portforward.com/](https://portforward.com)
-
-Renters know to contact your host from the network address in the host announcement. If your IP address has changed since your announcement, you will need to announce again. If you have a firewall or some networking setup that may be blocking inbound connections from the internet, you need to make sure that it allows traffic to reach the host.
-
-Finally, if you have a dynamic IP address, you should strongly consider setting up something like DynDNS, which allows you to announce a hostname and then manages the dynamic IP address issue for you.
-
 ## Set up Dynamic DNS (DDNS) (Optional)
 
 Most residential Internet services assign subscribers a dynamic public IP address which may change at a set duration, or when rebooting your Internet modem. This can be a problem because when running a service like a Sia host, renters find you by your public IP address. The host tracks your current IP address and automatically re-announces every time that the IP address changes. If you have manually set the host's net address (which can be IPv4, IPv6, or a full hostname like `myhost.sia.tech`), then the host will stop tracking your IP address and instead just use the one you have set manually.
@@ -135,19 +116,3 @@ If SiaCentral discovers issues when connecting to your host, wait an hour or two
 
 ## Set up host metadata backups (Recommended)
 
-Sia keeps data pertaining to your hosting operation in two places:
-
-* The storage folders you're renting out, where uploaded renter data is stored
-* Internal host metadata files that keep track of your contracts with renters and what's where in your storage folders
-
-The first type of data, uploaded renter data, isn't very practical to back up unless you have additional hard drives lying around with a capacity equivalent to what you're selling on Sia. In that case, you'd be better off setting up a mirrored volume with multiple disks to prevent data loss if a drive fails.
-
-The second type of data, internal host metadata, is equally important. Sia installations have been known to corrupt this data if a host does not shut down gracefully (i.e. a power outage or crash), and in rare cases, Sia itself can corrupt this data at no fault of the user. Without this metadata, your host cannot operate, and it is equivalent to losing all of your renter's data on all storage folders. This would result in the loss of all your risked collateral for your host. For this reason, you can see why it might be important to back the metadata up regularly. Even if you restore a copy of the metadata which is a few days old, you only stand to lose collateral for data uploaded to your host over those few days.
-
-Host metadata is located in the `/host` folder in Sia's internal data files, which can be found in the Sia-UI by clicking the **About (i) icon > Open Data Folder** or in these locations:
-
-* **Linux:** `$HOME/.config/Sia-UI/sia/`
-* **Mac:** `$HOME/Library/Application Support/Sia-UI/sia/`
-* **Windows:** `%APPDATA%\roaming\Sia-UI\sia\`
-
-It is recommended to set up a backup schedule to regularly back up your `/host` folder so that you do not risk losing your hosting operation entirely in the event that your computer or Sia crashes or the data is randomly corrupted. You can do this by writing a simple backup script, by using built-in backup tools in [Windows](https://support.microsoft.com/en-us/help/17127/windows-back-up-restore) and [macOS](https://support.apple.com/mac-backup), or by using third-party tools in [Linux](https://www.tecmint.com/linux-system-backup-tools/).

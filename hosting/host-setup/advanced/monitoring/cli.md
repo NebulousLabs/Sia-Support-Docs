@@ -1,4 +1,4 @@
-# Advanced Monitoring
+# CLI
 
 A detailed itemization of earned coins and expected revenues, together with more parameters and statistics, can be checked with the command `siac host -v` in the Terminal. This is an example of the report:
 
