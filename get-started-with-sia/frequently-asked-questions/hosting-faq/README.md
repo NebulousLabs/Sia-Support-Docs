@@ -1,5 +1,5 @@
 ---
-description: Frequently asked questions about Hosting.
+description: Frequently asked questions about hosting.
 ---
 
 # Hosting

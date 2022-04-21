@@ -19,6 +19,8 @@
     * [How to restore a wallet from a seed in Sia-UI](get-started-with-sia/frequently-asked-questions/sia-ui-faqs/how-to-restore-a-wallet-from-a-seed-in-sia-ui.md)
     * [How to perform a clean install in Sia-UI](get-started-with-sia/frequently-asked-questions/sia-ui-faqs/how-to-perform-a-clean-install-in-sia-ui.md)
     * [How do I uninstall Sia-UI?](get-started-with-sia/frequently-asked-questions/sia-ui-faqs/how-do-i-uninstall-sia-ui-wip.md)
+  * [Renting](get-started-with-sia/frequently-asked-questions/renting/README.md)
+    * [Is my data secure?](get-started-with-sia/frequently-asked-questions/renting/is-my-data-secure.md)
   * [Hosting](get-started-with-sia/frequently-asked-questions/hosting-faq/README.md)
     * [How do I see advanced host stats?](get-started-with-sia/frequently-asked-questions/hosting-faq/how-do-i-see-advanced-host-stats.md)
     * [Can I run my host on two different computers at the same time?](get-started-with-sia/frequently-asked-questions/hosting-faq/can-i-run-my-host-on-two-different-computers-at-the-same-time.md)
@@ -89,7 +91,6 @@
 ## Renting
 
 * [About renting on Sia](renting/about-renting.md)
-* [Is my data secure?](renting/is-my-data-secure.md)
 * [Renter Setup](renting/renter-setup/README.md)
   * [Managing your files](renting/renter-setup/managing-your-files.md)
   * [How to rent storage on Sia](renting/renter-setup/how-to-rent-storage-on-sia.md)
