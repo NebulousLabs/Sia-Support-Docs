@@ -66,7 +66,7 @@
 * [Wallet overview](your-sia-wallet/wallet-overview.md)
 * [Wallet Setup](your-sia-wallet/wallet-setup/README.md)
   * [The importance of your seed](your-sia-wallet/wallet-setup/the-importance-of-your-seed.md)
-  * [How to make a Sia address](your-sia-wallet/wallet-setup/how-to-make-a-sia-address.md)
+  * [How to receive Siacoin](your-sia-wallet/wallet-setup/how-to-make-a-sia-address.md)
   * [How to send Siacoins](your-sia-wallet/wallet-setup/how-to-send-siacoins.md)
   * [How do I change my Sia wallet password?](your-sia-wallet/wallet-setup/how-do-i-change-my-sia-wallet-password.md)
   * [Back up your Sia wallet](your-sia-wallet/wallet-setup/back-up-your-sia-wallet.md)

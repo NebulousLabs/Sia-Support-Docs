@@ -1,14 +1,14 @@
 # How to buy Siacoin
 
-Whether you want to upload files to the decentralized cloud or lend your extra storage space to the network, you need Siacoins to use Sia. Siacoins can be sent to you once you make a Sia address, or you can mine them. Otherwise, you’ll need to buy them.
+Whether you want to [upload files](../../../renting/renter-setup/managing-your-files.md#uploading) to the decentralized cloud or [lend your extra storage space](../../../hosting/about-hosting-on-sia.md) to the network, you need Siacoin to use Sia. Siacoin can be [sent to you](../../../your-sia-wallet/wallet-setup/how-to-make-a-sia-address.md) once you make a Sia address, or you can [mine them](broken-reference). Otherwise, you’ll need to buy them.
 
 Siacoins are available on a number of major exchanges like Binance, Bittrex, Kraken, Upbit, Poloniex, Huobi, OKex, and HitBTC. Get the full list [here](https://airtable.com/shrq4MSLNxinvnaR7).
 
-Some exchanges support direct fiat (local currency) to Siacoin purchases, but others require you to buy Bitcoins, Ethereum, or other crypto to make your purchase. We’ll walk you through the process of buying your first Siacoins.
+Some exchanges support direct fiat (local currency) to Siacoin purchases, but others require you to buy Bitcoin, Ethereum, or other crypto to make your purchase. We’ll walk you through the process of buying your first Siacoins.
 
 ## What is KYC?
 
-No, this isn't chicken related. KYC stands for Know Your Customer and is a set of identity verification rules that most exchanges have to follow to abide by local laws. This might include submitting scans of state or federal ID, or sending in your government ID numbers like a Social Security Number if you live in the US. You'll be guided through whatever KYC process your exchange of choice has.
+No, this isn't chicken related. KYC stands for _Know Your Customer_ and is a set of identity verification rules that most exchanges have to follow to abide by local laws. This might include submitting scans of state or federal ID, or sending in your government ID numbers like a Social Security Number if you live in the US or Canada. You'll be guided through whatever KYC process your exchange of choice has.
 
 ## Buy SC from an exchange
 
