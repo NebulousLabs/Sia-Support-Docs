@@ -3,7 +3,6 @@
 ## Get Started with Sia
 
 * [Welcome to Sia!](README.md)
-* [Sia 101](get-started-with-sia/sia101.md)
 * [Frequently Asked Questions](get-started-with-sia/frequently-asked-questions/README.md)
   * [Siacoin](get-started-with-sia/frequently-asked-questions/siacoin/README.md)
     * [What are Siacoins?](get-started-with-sia/frequently-asked-questions/siacoin/what-are-siacoins.md)
