@@ -10,11 +10,11 @@ It is not recommended to keep the same wallet and installation running in two di
 
 ## What happens if my Sia wallet locks?
 
-Your host will appear as offline. Reference [this article](../your-sia-wallet/for-advanced-users/how-to-automatically-restart-and-unlock-sia.md) to keep it automatically unlocked.
+Your host will appear as offline. Reference [this article](../../your-sia-wallet/wallet-setup/for-advanced-users/how-to-automatically-restart-and-unlock-sia.md) to keep it automatically unlocked.
 
 ## What happens if my host computer shuts off?
 
-Your host will appear as offline. Reference [this article](../your-sia-wallet/for-advanced-users/how-to-automatically-restart-and-unlock-sia.md) to reboot it automatically.
+Your host will appear as offline. Reference [this article](../../your-sia-wallet/wallet-setup/for-advanced-users/how-to-automatically-restart-and-unlock-sia.md) to reboot it automatically.
 
 ## Can I change the folder that Sia uses for storage?
 

@@ -10,7 +10,7 @@ The hardfork requires v1.5.4 of Sia. It is necessary to spend coins, receive coi
 
 This guide is strictly practical. If you'd like to learn more about the Foundation's proposal and the discussion that led to its acceptance, check these links.
 
-[The Sia Foundation proposal](https://www.reddit.com/r/siacoin/comments/iox6ly/proposal_the_sia_foundation/)
+[The Sia Foundation proposal](https://www.reddit.com/r/siacoin/comments/iox6ly/proposal\_the\_sia\_foundation/)
 
 [Launching the Sia Foundation](https://blog.sia.tech/launching-the-sia-foundation-ee47dfab4d2c)
 
@@ -22,9 +22,9 @@ You can reference our [Sia API docs](https://sia.tech/docs/) for technical docum
 
 Sia v1.5.4 has been released. The fork will be implemented at a block height of 298,000, which occurred on February 3rd at around 4 pm ET, 1 pm PT.
 
-[Download 1.5.4 from our site](https://sia.tech/get-started) \(best for most users\)
+[Download 1.5.4 from our site](https://sia.tech/get-started) (best for most users)
 
-[Download 1.5.4 from Gitlab](https://gitlab.com/NebulousLabs/Sia/-/releases) \(if you prefer to build it yourself\)
+[Download 1.5.4 from Gitlab](https://gitlab.com/NebulousLabs/Sia/-/releases) (if you prefer to build it yourself)
 
 ## For renters and hosts
 
@@ -46,7 +46,7 @@ Transactions created before the fork block but not confirmed yet will not be val
 
 Reference our [Sia API docs](https://sia.tech/docs/) if necessary. Updating your Sia wallet can be as simple as running `siac update`, or using the following API command, but only you know your Sia wallet setup.
 
-```text
+```
 curl -A "Sia-Agent" -u "":<apipassword> "localhost:9980/daemon/update"
 ```
 
@@ -62,11 +62,11 @@ Siacoin holders should [upgrade to v1.5.4](https://sia.tech/get-started) by Febr
 If you don't upgrade in time, you will brick your `consensus.db` file. This is the file that syncs the blockchain to your computer, and you will have to completely re-sync it. **You never lose your coins. Once you update to the new chain, your coins will be available to you again.**
 {% endhint %}
 
-[Learn how to download and install Sia-UI](../your-sia-wallet/sia-ui-faqs/how-to-download-and-install-sia-ui.md)
+[Learn how to download and install Sia-UI](../get-started-with-sia/frequently-asked-questions/sia-ui-faqs/how-to-download-and-install-sia-ui.md)
 
-[Learn how to create a new wallet in Sia-UI](../your-sia-wallet/sia-ui-faqs/how-to-make-a-new-wallet-in-sia-ui.md)
+[Learn how to create a new wallet in Sia-UI](../get-started-with-sia/frequently-asked-questions/sia-ui-faqs/how-to-make-a-new-wallet-in-sia-ui.md)
 
-[Download siac from our site \(for advanced users\)](http://sia.tech/get-started)
+[Download siac from our site (for advanced users)](http://sia.tech/get-started)
 
 ### For users that store Siacoins on an exchange
 
@@ -82,25 +82,25 @@ The second column will have three values:
 * Confirmed, meaning the exchange has agreed to update
 * Complete, meaning the exchange has already updated
 
-| Exchange | Updating to 1.5.4 |
-| :--- | :--- |
-| Binance | **Update Complete** |
-| BiOne | Informed |
-| Bittrex | **Update Complete** |
-| CoinEx | **Update Complete** |
-| Digifinex | Informed |
-| HitBTC | Confirmed |
+| Exchange     | Updating to 1.5.4   |
+| ------------ | ------------------- |
+| Binance      | **Update Complete** |
+| BiOne        | Informed            |
+| Bittrex      | **Update Complete** |
+| CoinEx       | **Update Complete** |
+| Digifinex    | Informed            |
+| HitBTC       | Confirmed           |
 | Huobi Global | **Update Complete** |
-| Kraken | **Update Complete** |
-| Lbank | Confirmed |
-| OKex | **Update Complete** |
-| Poloniex | **Update Complete** |
-| Upbit | **Update Complete** |
-| VCC | Confirmed |
+| Kraken       | **Update Complete** |
+| Lbank        | Confirmed           |
+| OKex         | **Update Complete** |
+| Poloniex     | **Update Complete** |
+| Upbit        | **Update Complete** |
+| VCC          | Confirmed           |
 
 ## For Ledger Nano S users
 
-You'll need to update your app, but you should do it after the hardfork activates. Updating before the fork will your signatures won't be valid. Use [Ledger Live](../sia-integrations/using-the-sia-ledger-nano-s-app.md#install_the_sia_ledger_nano_s_app) in Developer mode to find and update the Siacoin app.
+You'll need to update your app, but you should do it after the hardfork activates. Updating before the fork will your signatures won't be valid. Use [Ledger Live](../sia-integrations/using-the-sia-ledger-nano-s-app.md#install\_the\_sia\_ledger\_nano\_s\_app) in Developer mode to find and update the Siacoin app.
 
 ## For SiaStream users
 
@@ -109,4 +109,3 @@ SiaStream has been updated to support 1.5.4. If you run SiaStream, simply update
 ## More questions?
 
 Let us know! [Send us an email](mailto:hello@sia.tech), or [reach out to the community on Discord](https://discord.gg/sia).
-

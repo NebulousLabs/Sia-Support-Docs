@@ -10,9 +10,9 @@ Even if you set a custom password, you still need to keep your seed safe. Learn 
 
 ## Things you'll need
 
-Sia-UI, downloaded and installed. &lt;link&gt;
+Sia-UI, downloaded and installed. \<link>
 
-Your Sia-UI wallet set up. &lt;link&gt;
+Your Sia-UI wallet set up. \<link>
 
 ## Using a custom password
 
@@ -51,15 +51,14 @@ Disadvantages
 
 Go to the Wallet tab in Sia-UI.
 
-![](../.gitbook/assets/send-1.png)
+![](../../.gitbook/assets/send-1.png)
 
 Click **More** in the upper right corner.
 
-![](../.gitbook/assets/wallet-2%20%282%29%20%283%29.png)
+![](<../../.gitbook/assets/wallet-2 (2) (3).png>)
 
 Click **Change Password.** Sia-UI will ask for your current password. For current password, enter whatever you're using to unlock your wallet now. You can then enter your custom password.
 
-![](../.gitbook/assets/password-2.png)
+![](../../.gitbook/assets/password-2.png)
 
 That's it! You've changed your Sia-UI password.
-

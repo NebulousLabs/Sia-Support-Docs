@@ -24,11 +24,11 @@ On Mac and Linux, you can just delete the app from your Applications folder. You
 
 In Sia-UI version 1.4.0 and later, there's an easy way to find this. Click on the **Info** button at the top of Sia-UI.
 
-![](../../.gitbook/assets/uninstall-1.png)
+![](../../../.gitbook/assets/uninstall-1.png)
 
-Then click on **Show Sia Data** or **Open Data Folder** \(version dependent\)**.**
+Then click on **Show Sia Data** or **Open Data Folder** (version dependent)**.**
 
-![](../../.gitbook/assets/fork-2%20%281%29%20%283%29%20%283%29%20%282%29.png)
+![](<../../../.gitbook/assets/fork-2 (1) (3) (3) (2).png>)
 
 You'll be taken to your computer's `/sia` folder. Delete the parent folder to this, `/Sia-UI`.
 
@@ -41,4 +41,3 @@ If you're having trouble and can't get to your Sia data from Sia, they can also 
 **Mac:** `~/Library/Application Support/Sia-UI/`
 
 **Linux:** `~/.config/Sia-UI/`
-
