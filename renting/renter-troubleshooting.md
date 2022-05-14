@@ -164,5 +164,5 @@ Big things that you want to check for:
 * Do you have enough active contracts?
 * Do you have enough total contracts?
 
-Reference the [renter README](https://gitlab.com/NebulousLabs/Sia/blob/master/modules/renter/README.md) to get an understanding of how the upload should be happening to then understand if the logs in renter.log make sense or indicate an error.
+Reference the [renter README](https://github.com/SiaFoundation/siad/blob/master/modules/renter/README.md) to get an understanding of how the upload should be happening to then understand if the logs in renter.log make sense or indicate an error.
 

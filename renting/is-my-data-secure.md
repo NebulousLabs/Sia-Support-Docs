@@ -6,7 +6,7 @@ The data normally on Sia gets split up, encrypted, and the pieces are then distr
 
 ## It's just the way it's built
 
-Sia is decentralized, which has a lot of inherent benefits. While we develop the software, we're not in charge of the network. No one is - it's all handled by smart contracts and a blockchain, and [**Sia is completely open-source**](https://gitlab.com/NebulousLabs/Sia) so you can make sure we're staying honest.
+Sia is decentralized, which has a lot of inherent benefits. While we develop the software, we're not in charge of the network. No one is - it's all handled by smart contracts and a blockchain, and [**Sia is completely open-source**](https://github.com/SiaFoundation) so you can make sure we're staying honest.
 
 When you upload your media to Sia, **every single file gets divided into 30 segments before uploading**, each targeted for distribution to hosts across the world.
 

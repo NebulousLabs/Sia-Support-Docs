@@ -22,9 +22,9 @@ You can reference our [Sia API docs](https://sia.tech/docs/) for technical docum
 
 Sia v1.5.4 has been released. The fork will be implemented at a block height of 298,000, which occurred on February 3rd at around 4 pm ET, 1 pm PT.
 
-[Download 1.5.4 from our site](https://sia.tech/get-started) \(best for most users\)
+[Download latest from our site](https://sia.tech/get-started) \(best for most users\)
 
-[Download 1.5.4 from Gitlab](https://gitlab.com/NebulousLabs/Sia/-/releases) \(if you prefer to build it yourself\)
+[Download latest from GitHub](https://github.com/SiaFoundation/siad/releases) \(if you prefer to build it yourself\)
 
 ## For renters and hosts
 
