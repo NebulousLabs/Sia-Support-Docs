@@ -54,6 +54,11 @@
 * [About hosting on Sia](hosting/about-hosting-on-sia.md)
 * [How to host on Sia](hosting/how-to-host-on-sia.md)
 * [Hosting FAQ](hosting/hosting-faq.md)
+* [Setup](hosting/setup/README.md)
+  * [Linux Server](hosting/setup/linux-server-setup.md)
+* [Network Security](hosting/network-security/README.md)
+  * [Hosting Anonymously (Simple)](hosting/network-security/host-vpn-gui.md)
+  * [Hosting Anonymously (Advanced)](hosting/network-security/host-vpn-docker.md)
 
 ## Mining
 

@@ -1,0 +1,5 @@
+# Network Security
+
+As a distributed network, one of the benefits of Sia is resiliancy against traditional network attacks. It is much harder to bring down 500 individual providers, over a few centralized providers. Even large enterprises like Amazon, Microsoft and Google are not immune to determined attackers. While the network as a whole is highly resilient, attacks against invididual nodes can be very successful in disrupting activity on their local networks. Especially for home users with very limited bandwidth or consumer networking equipment. 
+
+Attacks on networks and services are increasing every day. With more people working from home and needing a stable connection, it's very important to secure home networks for when the next attack happens. By running a public service, such as a Sia host you are opening your network up to increased scrutiny from potential attackers. This can include increased probing for common vulnerabilities to full scale DDoS attacks to overwhelm the network.
