@@ -30,21 +30,20 @@ If you're on 1.3.7 or earlier, you can easily find these folders by clicking **S
 
 If you're on 1.4.0 or later, use the Info button at the top of Sia.
 
-![](../.gitbook/assets/fork-2%20%281%29%20%283%29%20%283%29%20%283%29.png)
+![](<../.gitbook/assets/fork-2 (1) (3) (3) (3) (2) (1).png>)
 
 Then click **Open Data Folder.**
 
 Once you find the /sia folder:
 
-![](../.gitbook/assets/fork-3%20%281%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![](<../.gitbook/assets/fork-3 (1) (2) (2) (2) (2) (1).png>)
 
 delete the `consensus` and `transactionpool` folders. Reopen Sia to let it sync the correct version of the blockchain.
 
 ## Special considerations for miners
 
-Some forks come with no changes to the mining algorithm for their network. In this case, like with the[ 2021 Sia network hardfork](navigating-the-2021-sia-hardfork.md), you just need to make sure your mining pool upgrades in time \(they did\).
+Some forks come with no changes to the mining algorithm for their network. In this case, like with the[ 2021 Sia network hardfork](navigating-the-2021-sia-hardfork.md), you just need to make sure your mining pool upgrades in time (they did).
 
 Miners might be affected in other ways by a fork. If you've set up your miner to mine a certain coin, a fork might change the algorithm associated with mining that coin. An example of this was the 2018 Sia network hardfork, which invalidated all ASIC Sia miners except those produced by Obelisk. If you were using a Bitmain A3, Innosilicon S11, or any other non-Obelisk ASIC miner, you were no longer mining the primary dev-supported Sia chain after the fork.
 
 What this meant for you was that your miner was still working, but it was mining the pre-fork version of Siacoin, usable only on pre-fork versions of the Sia network. These coins that are mined were not visible in your wallet until you upgraded your node.
-

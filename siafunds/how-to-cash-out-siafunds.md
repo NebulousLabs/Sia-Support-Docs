@@ -28,7 +28,7 @@ Go to the Wallet tab of Sia, and click **Receive.**
 
 Click **Generate New Address** to create a new Sia address.
 
-![](../.gitbook/assets/address-2%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![](<../.gitbook/assets/address-2 (2) (2) (2) (2).png>)
 
 Copy and paste this manually, or use the `Copy` button to the right to make sure you get the full address without any extra spaces.
 
@@ -69,4 +69,3 @@ If you're using siac, the process is the same. Just initiate a transaction and s
 `siac wallet send siafunds <amount> <destination address (must be your own)>`
 
 to take the accrued Siacoins and put them in your wallet. The Siafunds will still be on your wallet because you sent them to your own address.
-

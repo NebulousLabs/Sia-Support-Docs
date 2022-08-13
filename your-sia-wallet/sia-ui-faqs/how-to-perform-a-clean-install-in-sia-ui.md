@@ -47,13 +47,13 @@ If you've updated to v1.3.1 or later, you can easily find these folders by click
 
 If you're on 1.4.0 or later, use the Info button at the top of Sia.
 
-![](../../.gitbook/assets/fork-2%20%281%29%20%283%29%20%283%29%20%283%29%20%281%29.png)
+![](<../../.gitbook/assets/fork-2 (1) (3) (3) (3) (2) (3).png>)
 
 Then click **Show Sia Data.**
 
 Once you find the `/sia` folder:
 
-![](../../.gitbook/assets/fork-3%20%281%29%20%282%29%20%282%29%20%282%29.png)
+![](<../../.gitbook/assets/fork-3 (1) (2) (2) (2) (2).png>)
 
 Delete it.
 
@@ -98,4 +98,3 @@ Sia-UI will then scan the blockchain for any Siacoin associated with your seed. 
 ## Questions?
 
 If you have any issues with this process, let us know! Send an email to [hello@sia.tech](mailto:hello@sia.tech) and we’ll get back to you as soon as we can.
-

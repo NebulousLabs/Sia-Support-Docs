@@ -10,7 +10,7 @@ description: >-
 Sia is hardforking on February 3rd. [Learn what you need to do.](forks/navigating-the-2021-sia-hardfork.md)
 {% endhint %}
 
-Sia is a decentralized cloud storage platform secured by blockchain technology. The Sia storage network leverages underutilized hard drive capacity around the world to create a data storage marketplace that is more reliable and lower cost than traditional cloud storage providers. Sia has its own blockchain, and a utility token that powers it – the Siacoin.
+Sia is a decentralizzed cloud storage platform secured by blockchain technology. The Sia storage network leverages underutilized hard drive capacity around the world to create a data storage marketplace that is more reliable and lower cost than traditional cloud storage providers. Sia has its own blockchain, and a utility token that powers it – the Siacoin.
 
 Your data is truly private and gets stored across the globe to eliminate any single point of failure and ensure the highest possible uptime. Since you hold the keys, you own your data. No outside company can access or control your files.
 
@@ -31,4 +31,3 @@ Any type of data can be uploaded to Skynet. You can upload files through your ow
 The original uploader does not need to stay online in order for the file to remain available. The Sia network handles all of the pinning, guaranteeing both high speeds and excellent uptime. This is a boon for decentralized applications, which can run confidently knowing that their storage layer is just as decentralized as their app.
 
 And for centralized applications, Skynet provides a low cost, low hassle, high-speed mechanism to store and distribute data. Storage costs are as much as 10x lower than traditional infrastructure, bandwidth costs as much as 100x lower, all without sacrificing performance or reliability.
-

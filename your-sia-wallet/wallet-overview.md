@@ -46,7 +46,7 @@ While your transaction is confirming, you'll see 0/6, then 1/6, and so on. Once 
 
 Near the upper right corner, you'll see a button that says `More`. Click on this to get some additional wallet options.
 
-![](../.gitbook/assets/wallet-2%20%282%29%20%283%29%20%281%29.png)
+![](<../.gitbook/assets/wallet-2 (2) (3) (2) (1).png>)
 
 **View Seed** shows you your seed in case you need to see it again.
 
@@ -55,4 +55,3 @@ Near the upper right corner, you'll see a button that says `More`. Click on this
 ## Be careful
 
 There are plenty of scams in the cryptocurrency space. Make sure the only software wallet you use to store your Siacoin is the official app downloaded from that link above or [our GitLab page.](https://gitlab.com/NebulousLabs/Sia-UI/tags) There are some other great recommendations you can get from [our community](https://discord.gg/sia), but we can't guarantee that any other software wallet will safely store your Siacoins.
-

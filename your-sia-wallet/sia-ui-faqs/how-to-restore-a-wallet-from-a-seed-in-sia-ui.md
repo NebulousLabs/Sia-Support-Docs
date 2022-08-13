@@ -17,7 +17,7 @@ Restoring from your seed does not restore a custom password. After following thi
 
 Go to the Wallet tab. If there's not another wallet setup already, you'll see two options: Create new wallet and Restore from seed. Click **Restore from seed.**
 
-![](../../.gitbook/assets/restore-1%20%282%29%20%282%29%20%282%29.png)
+![](<../../.gitbook/assets/restore-1 (2) (2) (2) (2).png>)
 
 If the blockchain isn't fully synched, you'll receive a message telling you to wait. Sia-UI needs to be fully synced because it needs to scan the blockchain for all your transactions.
 
@@ -46,4 +46,3 @@ After restoring Sia from your seed and resyncing, it might take your balance up 
 ![](../../.gitbook/assets/send-1.png)
 
 That's it! Sia's so smart, it even pulls your transaction history.
-
